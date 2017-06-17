@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next"
+    "dev": "next",
+    "build": "next build && next export",
+    "deploy": "touch out/.nojekyll && cname out && git add out && git commit -m \"Update pages - `date +\"%Y-%m-%d %T\"`\" && git subtree push --prefix out origin gh-pages"
   },
   "repository": {
     "type": "git",
@@ -16,8 +18,9 @@
   "bugs": {
     "url": "https://github.com/FrontEndDev-Group/feconf2017/issues"
   },
-  "homepage": "https://github.com/FrontEndDev-Group/feconf2017#readme",
+  "homepage": "https://2017.feconf.kr",
   "dependencies": {
+    "cname": "0.0.2",
     "next": "3.0.0-beta16",
     "react": "15.6.1",
     "react-dom": "15.6.1"
