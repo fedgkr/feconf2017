@@ -1,0 +1,25 @@
+{
+  "name": "feconf2017",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrontEndDev-Group/feconf2017.git"
+  },
+  "author": "UYEONG <uyeong21c@gmail.com> (http://blog.coderifleman.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrontEndDev-Group/feconf2017/issues"
+  },
+  "homepage": "https://github.com/FrontEndDev-Group/feconf2017#readme",
+  "dependencies": {
+    "next": "3.0.0-beta16",
+    "react": "15.6.1",
+    "react-dom": "15.6.1"
+  }
+}

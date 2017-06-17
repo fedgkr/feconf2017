@@ -205,3 +205,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+
+## Project files.
+
+.next
+dist
