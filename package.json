@@ -20,9 +20,11 @@
   },
   "homepage": "https://2017.feconf.kr",
   "dependencies": {
-    "cname": "0.0.2",
     "next": "3.0.0-beta16",
     "react": "15.6.1",
     "react-dom": "15.6.1"
+  },
+  "devDependencies": {
+    "cname": "0.0.2"
   }
 }
