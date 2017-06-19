@@ -1,0 +1,21 @@
+// ------------------------------------- //
+// Style of Variables
+// ------------------------------------- //
+
+// Colors.
+$white: #fff;
+$black: #000;
+
+$gray-darker: lighten($black, 13.5%); // #222
+$gray-dark: lighten($black, 20%);   // #333
+$gray: lighten($black, 33.5%); // #555
+$gray-light: lighten($black, 46.7%); // #777
+$gray-lighter: lighten($black, 93.5%); // #eee
+
+// Typography.
+$font-family: Lato, 'Apple SD Gothic Neo', AppleSDGothicNeo-Regular, '맑은 고딕', 'Malgun Gothic', '돋움', dotum,AppleGothic, '굴림', Gulim, Arial, Helvetica, 'Helvetica Neue', sans-serif;
+$root-font-size: 14px;
+
+// Layouts
+$tablet-width: 768px;
+$desktop-width: 1024px;

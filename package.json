@@ -22,9 +22,19 @@
   "dependencies": {
     "next": "3.0.0-beta16",
     "react": "15.6.1",
-    "react-dom": "15.6.1"
+    "react-dom": "15.6.1",
+    "semantic-ui-react": "0.68.5"
   },
   "devDependencies": {
-    "cname": "0.0.2"
+    "autoprefixer": "7.1.1",
+    "babel-plugin-module-resolver": "2.7.1",
+    "babel-plugin-wrap-in-js": "1.1.1",
+    "cname": "0.0.2",
+    "cssnano": "3.10.0",
+    "glob": "7.1.2",
+    "node-sass": "4.5.3",
+    "postcss-loader": "2.0.6",
+    "raw-loader": "0.5.1",
+    "sass-loader": "6.0.6"
   }
 }

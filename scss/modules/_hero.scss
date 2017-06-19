@@ -1,0 +1,103 @@
+// ------------------------------------- //
+// Style of Hero
+// ------------------------------------- //
+
+$module: 'hero';
+
+.#{$module} {
+    width: 100%;
+    height: 800px;
+
+    &__inner {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__background-carousel {
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+    }
+
+    &__background-img,
+    &__mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    &__background-img {
+        margin: auto;
+        min-width: 50%;
+        min-height: 50%;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+    }
+
+    &__background-img:last-child {opacity: 1}
+    &__background-img.fade-in {opacity: 1}
+    &__background-img.fade-out {opacity: 0}
+
+    &__mask {
+        background: #000;
+        opacity: .4;
+    }
+
+    &__messages {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        padding: 65px 8%;
+        width: 100%;
+        height: auto;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+    }
+
+    &__title,
+    &__time {
+        letter-spacing: 0.08rem;
+    }
+
+    &__title {
+        font-size: 4.42rem;
+        margin-bottom: 0.71rem;
+    }
+
+    &__time {
+        font-size: 2.14rem;
+        font-weight: 300;
+    }
+
+    @include tablet {
+        height: 600px;
+
+        &__title {
+            font-size: 3.28rem;
+        }
+
+        &__time {
+            font-size: 1.71rem;
+        }
+    }
+
+    @include mobile {
+        height: 400px;
+
+        &__title {
+            font-size: 2.42rem;
+            margin-bottom: .42rem;
+        }
+
+        &__time {
+            font-size: 1.14rem;
+        }
+    }
+}
