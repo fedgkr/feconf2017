@@ -1,0 +1,29 @@
+// ------------------------------------- //
+// Style of CallForSpeakers
+// ------------------------------------- //
+
+$module: 'call-for-speakers';
+
+.#{$module} {
+    &__contents {
+        position: relative;
+        z-index: 1;
+    }
+
+    &__forms {
+        margin-top: 50px;
+    }
+
+    &__form-rec,
+    &__form-req {
+        display: none;
+    }
+
+    &__forms.rec &__form-rec {
+        display: block;
+    }
+
+    &__forms.req &__form-req {
+        display: block;
+    }
+}
