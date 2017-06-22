@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import Header from '../components/Header';
 import Hero from '../components/Hero';
 
 const CallForSpeakersPage = (props) => (
@@ -10,6 +11,7 @@ const CallForSpeakersPage = (props) => (
             <meta name="description" content=""/>
             <meta name="keywords" content=""/>
         </Head>
+        <Header/>
         <Hero/>
         <Link href="/"><a>Go to home</a></Link>
     </div>
