@@ -1,0 +1,36 @@
+// ------------------------------------- //
+// Style of Contents
+// ------------------------------------- //
+
+$module: 'contents';
+
+.#{$module} {
+    width: 70%;
+    max-width: 1400px;
+    padding: 6% 0;
+    margin: 0 auto;
+
+    &__inner {
+        position: relative;
+    }
+
+    &__title {
+        font-size: 2.3rem;
+        line-height: 140%;
+        margin: 0 0 40px;
+    }
+
+    &__paragraph {
+        color: $gray-light;
+        font-size: 1.28rem;
+        letter-spacing: .03rem;
+        word-break: break-all;
+        line-height: 1.85rem;
+        margin: 0 0 2rem;
+    }
+
+    @include mobile {
+        width: 80%;
+        padding: 9% 0;
+    }
+}
