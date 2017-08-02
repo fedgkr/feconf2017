@@ -20,14 +20,14 @@
   },
   "homepage": "https://2017.feconf.kr",
   "dependencies": {
-    "next": "3.0.0-beta16",
+    "next": "3.0.1-beta.20",
     "prop-types": "15.5.10",
     "react": "15.6.1",
     "react-dom": "15.6.1",
     "semantic-ui-react": "0.68.5"
   },
   "devDependencies": {
-    "autoprefixer": "7.1.1",
+    "autoprefixer": "7.1.2",
     "babel-plugin-module-resolver": "2.7.1",
     "babel-plugin-wrap-in-js": "1.1.1",
     "cname": "0.0.2",
