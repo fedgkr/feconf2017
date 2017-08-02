@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
     "dev": "next",
     "build": "next build && next export",
     "deploy": "touch out/.nojekyll && cname out && git add out && git commit -m \"Update pages - `date +\"%Y-%m-%d %T\"`\" && git subtree push --prefix out origin gh-pages"
@@ -26,6 +27,9 @@
     "react-dom": "15.6.1"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "3.2.0",
+    "@storybook/addon-info": "3.2.0",
+    "@storybook/react": "3.2.3",
     "autoprefixer": "7.1.2",
     "babel-plugin-module-resolver": "2.7.1",
     "babel-plugin-wrap-in-js": "1.1.1",
