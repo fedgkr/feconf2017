@@ -1,0 +1,21 @@
+// ------------------------------------- //
+// Style of SpeakerCardList
+// ------------------------------------- //
+
+$module: "speaker-card-list";
+
+.#{$module} {
+    width: 100%;
+
+    &__inner {
+        position: relative;
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+
+    &__speaker-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}
