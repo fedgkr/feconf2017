@@ -1,0 +1,96 @@
+// ------------------------------------- //
+// Style of Countdown
+// ------------------------------------- //
+
+$module: "countdown";
+
+.#{$module} {
+    width: 100%;
+
+    &__inner {
+        position: relative;
+        font-size: 0;
+    }
+
+    &__time {
+        display: inline-block;
+        width: 28.148148%;
+        margin-right: 7.777777%;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__lamp {
+        margin-bottom: 12px;
+        text-align: right;
+        padding-right: 3px;
+        letter-spacing: 1px;
+        font-family: 'Cloudy';
+        color: $white;
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    &__date {
+        width: 100%;
+    }
+
+    &__count {
+        display: inline-block;
+        position: relative;
+        width: calc(50% - 1.315789%);
+        padding-bottom: 71.153846%;
+        background: $white;
+        text-align: center;
+        border-radius: 5px;
+        &::before {
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            top: 50%;
+            left: 0;
+            background: #a7a7a7;
+            content: ' ';
+        }
+        &:first-child {
+            margin-right: 2.631578%;
+        }
+        span {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Noto Sans Black', Arial, Helvetica, sans-serif;
+            font-size: 68px;
+            line-height: 1;
+            font-weight: 900;
+        }
+    }
+
+    &__divider {
+        position: absolute;
+        bottom: 0;
+        top: 30px;
+        width: 7.777777%;
+        &--first {
+            left: 28.148148%;
+        }
+        &--second {
+            left: 64.074073%;
+        }
+        &:before,
+        &:after {
+            position: absolute;
+            width: 4px;
+            height: 8px;
+            background: $sea-green;
+            top: calc(40% - 4px);
+            left: calc(50% - 1px);
+            content: " ";
+        }
+        &:after {
+            top: calc(60% - 4px);
+        }
+    }
+}
