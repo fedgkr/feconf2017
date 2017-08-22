@@ -5,7 +5,6 @@
 // IMPORTANT
 // When you add this file, we won't add the default configurations which is similar
 // to "React Create App". This only has babel loader to load JavaScript.
-const path = require('path');
 
 module.exports = {
     plugins: [
@@ -15,6 +14,9 @@ module.exports = {
         rules: [{
             test: /\.(scss|css)/,
             use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
+        }, {
+            test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+            loader: 'file-loader?name=static/fonts/[name].[ext]'
         }]
     },
 };

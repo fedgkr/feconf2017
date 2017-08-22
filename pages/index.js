@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import Greeting from '../components/Greeting';
 
 const IndexPage = (props) => (
     <div className="wrap">
@@ -9,7 +8,6 @@ const IndexPage = (props) => (
             <meta name="description" content=""/>
             <meta name="keywords" content=""/>
         </Head>
-        <Greeting/>
     </div>
 );
 
