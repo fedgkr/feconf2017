@@ -15,7 +15,7 @@ function getColumnWidth() {
 class SpeakerCardList extends React.Component {
     static propTypes = {
         className: PropTypes.string,
-        style: PropTypes.object.isRequired
+        style: PropTypes.object
     };
 
     static defaultProps = {
