@@ -6,6 +6,8 @@ $module: "countdown";
 
 .#{$module} {
     width: 100%;
+    max-width: 566px;
+    padding: 0 20px;
 
     &__inner {
         position: relative;
@@ -90,6 +92,30 @@ $module: "countdown";
         }
         &:after {
             top: calc(60% - 4px);
+        }
+    }
+
+    @media (max-width: 460px) {
+        &__count span {
+            font-size: 58px;
+        }
+    }
+
+    @media (max-width: 380px) {
+        &__count span {
+            font-size: 48px;
+        }
+        &__lamp {
+            font-size: 16px;
+        }
+    }
+
+    @media (max-width: 320px) {
+        &__count span {
+            font-size: 38px;
+        }
+        &__lamp {
+            font-size: 14px;
         }
     }
 }
