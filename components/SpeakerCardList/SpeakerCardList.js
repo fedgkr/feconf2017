@@ -25,15 +25,15 @@ class SpeakerCardList extends React.Component {
 
     constructor(props) {
         super(props);
-        this.timer = 0;
         this.grid = null;
         this.state = {columnWidth: getColumnWidth()};
     }
 
     componentDidMount() {
+        let timer = 0;
         window.addEventListener('resize', () => {
-            clearTimeout(this.timer);
-            this.timer = setTimeout(() => {
+            clearTimeout(timer);
+            timer = setTimeout(() => {
                 this.setState({columnWidth: getColumnWidth()});
                 this.grid.updateLayout();
             }, 300);
@@ -52,7 +52,7 @@ class SpeakerCardList extends React.Component {
                     <StackGrid
                         className="speaker-card-list__speaker-list"
                         component="ul"
-                        gridRef={grid => this.grid = grid}
+                        gridRef={(g) => this.grid = g}
                         columnWidth={`${columnWidth}%`}
                         gutterWidth={10}
                         gutterHeight={24}
