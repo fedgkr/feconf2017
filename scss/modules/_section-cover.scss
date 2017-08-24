@@ -1,0 +1,71 @@
+// ------------------------------------- //
+// Style of SectionCover
+// ------------------------------------- //
+
+$module: "section-cover";
+
+.#{$module} {
+    width: 100%;
+    background: $white;
+    box-shadow: 14px 14px 57px rgba(0, 0, 0, .15);
+
+    &__inner {
+        position: relative;
+        display: flex;
+    }
+
+    &__header {
+        position: relative;
+        flex: 1;
+        padding: 56px;
+    }
+
+    &__main-title {
+        padding-top: 40px;
+        margin: 0;
+        text-align: right;
+        font-size: 40px;
+        line-height: 1.2;
+        word-wrap: break-word;
+        word-break: keep-all;
+    }
+
+    &__sub-title {
+        position: absolute;
+        top: 56px;
+        right: 56px;
+        margin: 0;
+        font-family: 'Cloudy';
+        font-size: 17px;
+        letter-spacing: 3px;
+        line-height: 1;
+        color: $orange;
+    }
+
+    &__body {
+        flex: 2;
+        padding: 100px 56px 56px 0;
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 300;
+    }
+
+    &--filled {
+        .#{$module}__inner {
+            display: block;
+        }
+
+        .#{$module}__header {
+            padding: 40px;
+        }
+
+        .#{$module}__sub-title {
+            top: 40px;
+            right: 40px;
+        }
+
+        .#{$module}__body {
+            padding: 0 40px 40px;
+        }
+    }
+}

@@ -51,11 +51,13 @@ $module: "speaker-card";
         color: $light-blue;
         line-height: 1;
         margin: 14px 0 0;
+        font-weight: 300;
     }
 
     &__greeting {
         font-size: 15px;
         margin: 34px 0 0;
         line-height: 1.7;
+        font-weight: 300;
     }
 }

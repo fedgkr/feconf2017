@@ -2,29 +2,6 @@
 // Style of Layouts
 // ------------------------------------- //
 
-@font-face {
-    font-family: 'Cloudy';
-    src: url('../static/fonts/CloudyWithaChanceofLove.eot');
-    src: url('../static/fonts/CloudyWithaChanceofLove.eot?#iefix') format('embedded-opentype'),
-    url('../static/fonts/CloudyWithaChanceofLove.woff2') format('woff2'),
-    url('../static/fonts/CloudyWithaChanceofLove.woff') format('woff'),
-    url('../static/fonts/CloudyWithaChanceofLove.ttf') format('truetype'),
-    url('../static/fonts/CloudyWithaChanceofLove.svg#CloudyWithaChanceofLove') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Noto Sans Black';
-    src: url('../static/fonts/NotoSans-Black.eot');
-    src: url('../static/fonts/NotoSans-Black.eot?#iefix') format('embedded-opentype'),
-    url('../static/fonts/NotoSans-Black.woff2') format('woff2'),
-    url('../static/fonts/NotoSans-Black.woff') format('woff'),
-    url('../static/fonts/NotoSans-Black.otf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
 html,
 body {
     font-size: $root-font-size;

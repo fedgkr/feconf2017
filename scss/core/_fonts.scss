@@ -1,0 +1,59 @@
+// ------------------------------------- //
+// Style of FontFace
+// ------------------------------------- //
+
+@font-face {
+    font-family: 'Cloudy';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../static/fonts/CloudyWithaChanceofLove.eot');
+    src: url('../static/fonts/CloudyWithaChanceofLove.eot?#iefix') format('embedded-opentype'),
+    url('../static/fonts/CloudyWithaChanceofLove.woff2') format('woff2'),
+    url('../static/fonts/CloudyWithaChanceofLove.woff') format('woff'),
+    url('../static/fonts/CloudyWithaChanceofLove.ttf') format('truetype'),
+    url('../static/fonts/CloudyWithaChanceofLove.svg#CloudyWithaChanceofLove') format('svg');
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../static/fonts/NotoSans-Light.eot');
+    src: url('../static/fonts/NotoSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../static/fonts/NotoSans-Light.woff2') format('woff2'),
+    url('../static/fonts/NotoSans-Light.woff') format('woff'),
+    url('../static/fonts/NotoSans-Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../static/fonts/NotoSans-Medium.eot');
+    src: url('../static/fonts/NotoSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../static/fonts/NotoSans-Medium.woff2') format('woff2'),
+    url('../static/fonts/NotoSans-Medium.woff') format('woff'),
+    url('../static/fonts/NotoSans-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../static/fonts/NotoSans-Bold.eot');
+    src: url('../static/fonts/NotoSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../static/fonts/NotoSans-Bold.woff2') format('woff2'),
+    url('../static/fonts/NotoSans-Bold.woff') format('woff'),
+    url('../static/fonts/NotoSans-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../static/fonts/NotoSans-Black.eot');
+    src: url('../static/fonts/NotoSans-Black.eot?#iefix') format('embedded-opentype'),
+    url('../static/fonts/NotoSans-Black.woff2') format('woff2'),
+    url('../static/fonts/NotoSans-Black.woff') format('woff'),
+    url('../static/fonts/NotoSans-Black.otf') format('truetype');
+}
