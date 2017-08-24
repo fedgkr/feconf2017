@@ -41,6 +41,7 @@
     "cname": "0.0.2",
     "cssnano": "3.10.0",
     "glob": "7.1.2",
+    "img-loader": "^2.0.0",
     "node-sass": "4.5.3",
     "postcss-loader": "2.0.6",
     "raw-loader": "0.5.1",

@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Hero from '../components/Hero';
 
 const IndexPage = (props) => (
     <div className="wrap index">
@@ -9,7 +10,7 @@ const IndexPage = (props) => (
             <meta name="keywords" content=""/>
         </Head>
         <div className="index__inner">
-            This is index page!!
+            <Hero/>
         </div>
     </div>
 );

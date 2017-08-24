@@ -20,8 +20,7 @@ module.exports = {
                             .reduce((a, c) => a.concat(c), [])
                     }
                 }]
-            }
-        );
+        });
 
         return config;
     },
