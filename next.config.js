@@ -26,7 +26,6 @@ module.exports = {
         return config;
     },
     exportPathMap: () => ({
-        '/': {page: '/'},
-        '/call-for-speakers/': {page: '/call-for-speakers'}
+        '/': {page: '/'}
     })
 };
