@@ -109,4 +109,10 @@ $module: "section";
             }
         }
     }
+
+    @media (max-width: 414px) {
+        &__cover {
+            margin-bottom: 36px;
+        }
+    }
 }
