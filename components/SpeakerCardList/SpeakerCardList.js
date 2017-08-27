@@ -26,7 +26,7 @@ class SpeakerCardList extends React.Component {
     constructor(props) {
         super(props);
         this.grid = null;
-        this.state = {columnWidth: getColumnWidth()};
+        this.state = {columnWidth: 33.33};
     }
 
     componentDidMount() {
@@ -40,6 +40,7 @@ class SpeakerCardList extends React.Component {
         }, {
             passive: true
         });
+        this.setState({columnWidth: getColumnWidth()});
         setTimeout(() => this.grid.updateLayout(), 300);
     }
 
