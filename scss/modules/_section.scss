@@ -14,12 +14,12 @@ $module: "section";
         margin: 0 auto;
     }
 
-    &__cover {
+    &__header {
         text-align: center;
         margin-bottom: 72px;
     }
 
-    &__cover--basic {
+    &__header--basic {
         .#{$module}__sub-title {
             position: absolute;
             font-size: 18px;
@@ -41,13 +41,13 @@ $module: "section";
         }
     }
 
-    &__cover--card {
+    &__header--card {
         background: $white;
         box-shadow: 14px 14px 57px rgba(0, 0, 0, .15);
         position: relative;
         display: flex;
 
-        .#{$module}__cover-header {
+        .#{$module}__cover {
             position: relative;
             flex: 1;
             padding: 56px;
@@ -86,16 +86,16 @@ $module: "section";
     }
 
     @media (max-width: 690px) {
-        &__cover--card &__title {
+        &__header--card &__title {
             font-size: 40px;
         }
     }
 
     @media (max-width: 568px) {
-        &__cover--card {
+        &__header--card {
             display: block;
 
-            .#{$module}__cover-header {
+            .#{$module}__cover {
                 padding: 40px;
             }
 
@@ -111,7 +111,7 @@ $module: "section";
     }
 
     @media (max-width: 414px) {
-        &__cover {
+        &__header {
             margin-bottom: 36px;
         }
     }

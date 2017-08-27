@@ -4,8 +4,7 @@ import PropTypes from 'prop-types';
 const Section = ({className, style, children}) => (
     <div className={`section ${className}`} style={style}>
         <div className="section__inner">
-            {children[0]}
-            {children[1]}
+            {children}
         </div>
     </div>
 );

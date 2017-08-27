@@ -1,7 +1,6 @@
 import Section from './Section';
-import SectionCoverBasic from './SectionCoverBasic';
-import SectionCoverCard from './SectionCoverCard';
+import SectionHeader from './SectionHeader';
 import SectionBody from './SectionBody';
 
 export default Section;
-export {SectionCoverBasic, SectionCoverCard, SectionBody};
+export {SectionHeader,SectionBody};

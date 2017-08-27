@@ -10,4 +10,18 @@ $module: "index";
     &__inner {
         position: relative;
     }
+
+    &__introduction {
+        margin-top: -198px;
+    }
+
+    &__speakers {
+        padding-top: 86px;
+    }
+
+    @media (max-width: 414px) {
+        &__speakers {
+            padding-top: 43px;
+        }
+    }
 }
