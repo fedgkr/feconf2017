@@ -4,7 +4,7 @@ import StackGrid from "react-stack-grid";
 
 function getColumnWidth() {
     const width = document.documentElement.offsetWidth;
-    if (width <= 375) {
+    if (width <= 414) {
         return 100;
     } else if (width <= 768) {
         return 50;
