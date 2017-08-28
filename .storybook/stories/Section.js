@@ -23,9 +23,4 @@ storiesOf('Section', module)
                 )}
             </SpeakerCardList>
         </Section>
-    ))
-    .addWithInfo('Background - gradient', '', () =>  (
-        <Section title={schedule.title} subTitle={schedule.subTitle} bg="gradient">
-            <Schedule schedule={schedule.list}/>
-        </Section>
     ));

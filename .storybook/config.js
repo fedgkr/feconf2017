@@ -10,9 +10,9 @@ setDefaults({inline: true, header: false, maxPropsIntoLine: 1});
 setAddon(infoAddon);
 
 function loadStories() {
-    require('./stories/CardSection');
-    require('./stories/Section');
     require('./stories/Countdown');
+    require('./stories/Section');
+    require('./stories/CardSection');
     require('./stories/SpeakerCard');
     require('./stories/SpeakerCardList');
     require('./stories/Schedule');

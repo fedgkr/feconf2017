@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Section = ({className, style, title, subTitle, bg, children}) => (
-    <div className={`section ${className} ${bg ? 'section--gradient' : ''}`} style={style}>
+const Section = ({className, style, title, subTitle, children}) => (
+    <div className={`section ${className}`} style={style}>
         <div className="section__inner">
             <div className="section__header">
                 <h2 className="section__title">{title}</h2>
@@ -19,8 +19,7 @@ Section.propTypes = {
     className: PropTypes.string,
     style: PropTypes.object,
     title: PropTypes.string.isRequired,
-    subTitle: PropTypes.string.isRequired,
-    bg: PropTypes.string
+    subTitle: PropTypes.string.isRequired
 };
 
 Section.defaultProps = {

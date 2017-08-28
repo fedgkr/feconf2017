@@ -8,15 +8,6 @@ $module: "section";
     width: 100%;
     padding: 140px 0;
 
-    &--gradient {
-        background: -moz-linear-gradient(top, rgba(39,58,117,1) 0%, rgba(48,79,146,1) 100%);
-        background: -webkit-linear-gradient(top, rgba(39,58,117,1) 0%,rgba(48,79,146,1) 100%);
-        background: linear-gradient(to bottom, rgba(39,58,117,1) 0%,rgba(48,79,146,1) 100%);
-        .#{$module}__title {
-            color: $white;
-        }
-    }
-
     &__inner {
         position: relative;
         max-width: 1024px;
