@@ -10,7 +10,6 @@ setDefaults({inline: true, header: false, maxPropsIntoLine: 1});
 setAddon(infoAddon);
 
 function loadStories() {
-    require('./stories/Hero');
     require('./stories/CardSection');
     require('./stories/Section');
     require('./stories/Countdown');
