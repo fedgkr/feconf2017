@@ -11,8 +11,14 @@ $module: "index";
         position: relative;
     }
 
-    &__introduction {
-        margin-top: -198px;
+    &__introduction .card-section__card {
+        position: absolute;
+        top: -198px;
+    }
+
+    &__speakers {
+        background: $bg-gray;
+        padding-top: 338px;
     }
 
     &__schedule {
@@ -39,10 +45,11 @@ $module: "index";
         }
     }
 
-    &__location .card-section__inner {
-        float: right;
+    &__location .card-section__card {
+        position: absolute;
         width: 680px;
-        margin-top: -136px;
+        top: -136px;
+        right: 0;
         z-index: 2;
     }
 
@@ -83,11 +90,6 @@ $module: "index";
         &__schedule {
             padding-bottom: 30px;
         }
-        &__location .card-section__inner {
-            width: 100%;
-            margin-top: 0;
-            float: none;
-        }
     }
 
     @media (max-width: 690px) {
@@ -96,7 +98,17 @@ $module: "index";
         }
     }
 
-    @media (max-width: 1023px) {
+    @media (max-width: 1024px) {
+        &__introduction .card-section__card {
+            position: static;
+        }
+        &__speakers {
+            padding-top: 140px;
+        }
+        &__location .card-section__card {
+            position: static;
+            width: 100%;
+        }
         &__schedule-image {
             &--astronaut {
                 right: 20px;

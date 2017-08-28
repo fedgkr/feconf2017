@@ -5,12 +5,15 @@
 $module: "card-section";
 
 .#{$module} {
-    max-width: 1024px;
     width: 100%;
-    margin: 0 auto;
 
     &__inner {
         position: relative;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    &__card {
         display: flex;
         background: $white;
         box-shadow: 14px 14px 57px rgba(0, 0, 0, .15);
@@ -60,7 +63,7 @@ $module: "card-section";
     }
 
     @media (max-width: 568px) {
-        &__inner {
+        &__card {
             display: block;
         }
         &__cover {

@@ -9,3 +9,9 @@ body {
     color: $dark-blue;
     background: $bg-gray;
 }
+
+.wrap {
+    background: -moz-linear-gradient(top, rgba(27,30,76,1) 0%, rgba(59,103,181,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(27,30,76,1) 0%,rgba(59,103,181,1) 100%);
+    background: linear-gradient(to bottom, rgba(27,30,76,1) 0%,rgba(59,103,181,1) 100%);
+}
