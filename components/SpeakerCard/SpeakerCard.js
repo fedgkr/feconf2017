@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 const SpeakerCard = ({className, style, picture, name, company, desc}) => (
     <div className={`speaker-card ${className}`} style={style}>
         <div className="speaker-card__inner">
-            <div className="speaker-card__shadow"/>
             <div className="speaker-card__avatar">
                 <img className="speaker-card__photo" src={picture} alt={`${name}'s picture`}/>
             </div>
