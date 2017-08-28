@@ -5,13 +5,15 @@
 $module: "card-section";
 
 .#{$module} {
+    max-width: 1024px;
     width: 100%;
-    background: $white;
-    box-shadow: 14px 14px 57px rgba(0, 0, 0, .15);
+    margin: 0 auto;
 
     &__inner {
         position: relative;
         display: flex;
+        background: $white;
+        box-shadow: 14px 14px 57px rgba(0, 0, 0, .15);
     }
 
     &__cover {

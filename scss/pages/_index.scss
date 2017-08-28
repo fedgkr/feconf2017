@@ -13,7 +13,6 @@ $module: "index";
 
     &__introduction {
         margin-top: -198px;
-        padding: 0;
     }
 
     &__schedule {
@@ -24,14 +23,11 @@ $module: "index";
         padding-top: 28px;
     }
 
-    &__location {
-        padding: 0;
-        .section__header--card {
-            width: 680px;
-            float: right;
-            margin-top: -136px;
-            z-index: 2;
-        }
+    &__location .card-section__inner {
+        float: right;
+        width: 680px;
+        margin-top: -136px;
+        z-index: 2;
     }
 
     &__location-name {
@@ -71,16 +67,16 @@ $module: "index";
         &__schedule {
             padding-bottom: 30px;
         }
-        &__location .section__header--card {
+        &__location .card-section__inner {
             width: 100%;
             margin-top: 0;
             float: none;
         }
     }
 
-    @media (max-width: 414px) {
+    @media (max-width: 690px) {
         &__location-name {
-            font-size: 34px;
+            font-size: 40px;
         }
     }
 }
