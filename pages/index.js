@@ -37,6 +37,8 @@ const IndexPage = (props) => (
                 </SpeakerCardList>
             </Section>
             <Section className="index__schedule" title={schedule.title} subTitle={schedule.subTitle} bg="gradient">
+                <img className="index__schedule-image" src='../static/img/img-meteor.png'/>
+                <img className="index__schedule-image index__schedule-image--astronaut" src='../static/img/img-astronaut2.png'/>
                 <Schedule schedule={schedule.list}/>
             </Section>
             <CardSection className="index__location" title={location.title} subTitle={location.subTitle}>

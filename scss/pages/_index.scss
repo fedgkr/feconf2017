@@ -23,6 +23,22 @@ $module: "index";
         padding-top: 28px;
     }
 
+    &__schedule-image {
+        position: absolute;
+        right: 55px;
+        bottom: 160px;
+        max-width: 208px;
+        width: 100%;
+        &--astronaut {
+            max-width: 49px;
+            width: 100%;
+            right: 0;
+            bottom: 600px;
+            transform: translate3d(0,0);
+            animation: move 3s ease infinite alternate;
+        }
+    }
+
     &__location .card-section__inner {
         float: right;
         width: 680px;
@@ -77,6 +93,14 @@ $module: "index";
     @media (max-width: 690px) {
         &__location-name {
             font-size: 40px;
+        }
+    }
+
+    @media (max-width: 1023px) {
+        &__schedule-image {
+            &--astronaut {
+                right: 20px;
+            }
         }
     }
 }
