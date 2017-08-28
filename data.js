@@ -112,5 +112,9 @@ export default {
             title: '네트워킹',
             location: []
         }]
+    },
+    location: {
+        title: '장소',
+        subTitle: 'LOCATION'
     }
 };
