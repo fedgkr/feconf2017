@@ -29,7 +29,6 @@ $module: "section";
     }
 
     &__header--basic {
-        margin-bottom: 72px;
         .#{$module}__sub-title {
             position: absolute;
             font-size: 18px;
@@ -90,6 +89,10 @@ $module: "section";
         }
     }
 
+    &__body {
+        margin-top: 72px;
+    }
+
     @media (max-width: 690px) {
         &__header--card &__title {
             font-size: 40px;
@@ -115,7 +118,6 @@ $module: "section";
     @media (max-width: 414px) {
         padding: 70px 0;
         &__header--basic {
-            margin-bottom: 36px;
             .#{$module}__sub-title {
                 font-size: 16px;
             }
@@ -123,6 +125,9 @@ $module: "section";
                 font-size: 34px;
                 padding-top: 30px;
             }
+        }
+        &__body {
+            margin-bottom: 36px;
         }
     }
 }
