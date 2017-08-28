@@ -18,7 +18,7 @@ export default {
         `
     },
     speakers: {
-        title: '스피커',
+        title: '발표자',
         subTitle: 'SPEAKERS',
         list: [{
             picture: 'https://avatars2.githubusercontent.com/u/6267393?v=4&s=400',
@@ -45,6 +45,71 @@ export default {
             name: '문주영',
             company: 'NC소프트',
             desc: '오늘 밤 주인공은 나야 나 너만을 기다려 온 나야 나 네 마음을 훔칠 사람 나야 나 마지막 단 한 사람 나야 나 오늘 밤 주인공은 나야 나 너만을 기다려 온 나야 나 네 마음을 훔칠 사람 나야 나 마지막 단 한 사람 나야 나'
+        }]
+    },
+    schedule: {
+        title: '스케줄',
+        subTitle: 'SCHEDULE',
+        list: [{
+            icon: 'circle',
+            startTime: '09:30',
+            endTime: '10:00',
+            title: '입장',
+            location: ['마루180']
+        }, {
+            icon: 'double-circle',
+            startTime: '10:00',
+            endTime: '10:40',
+            title: '세션 1',
+            location: ['KAKAO', '김양원']
+        }, {
+            icon: 'double-circle',
+            startTime: '10:50',
+            endTime: '11:30',
+            title: '네이버는 왜 오픈소스를 하는가',
+            location: ['NAVER LABS', '이한나']
+        }, {
+            icon: 'double-circle',
+            startTime: '11:40',
+            endTime: '12:20',
+            title: '세션 3',
+            location: ['우아한 형제들', '신동엽']
+        }, {
+            icon: 'circle',
+            startTime: '12:20',
+            endTime: '13:20',
+            title: '점심시간',
+            location: []
+        }, {
+            icon: 'double-circle',
+            startTime: '13:20',
+            endTime: '14:00',
+            title: '세션 4',
+            location: ['Google', '신세경']
+        }, {
+            icon: 'double-circle',
+            startTime: '14:10',
+            endTime: '14:50',
+            title: '세션 5',
+            location: ['NAVER LABS', '이한나']
+        }, {
+            icon: 'double-circle',
+            startTime: '15:00',
+            endTime: '15:40',
+            title: '세션 6',
+            location: ['NAVER LABS', '이한나']
+        }, {
+            icon: 'double-circle',
+            startTime: '15:50',
+            endTime: '16:30',
+            title: '세션 7',
+            location: ['우아한 형제들', '신동엽']
+        }, {
+            icon: 'circle',
+            startTime: '16:30',
+            endTime: '',
+            title: '네트워킹',
+            location: []
         }]
     }
 };

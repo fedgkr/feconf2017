@@ -15,6 +15,7 @@ function loadStories() {
     require('./stories/Countdown');
     require('./stories/SpeakerCard');
     require('./stories/SpeakerCardList');
+    require('./stories/Schedule');
 }
 
 configure(loadStories, module);
