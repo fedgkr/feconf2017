@@ -11,6 +11,7 @@ setAddon(infoAddon);
 
 function loadStories() {
     require('./stories/Hero');
+    require('./stories/CardSection');
     require('./stories/Section');
     require('./stories/Countdown');
     require('./stories/SpeakerCard');
