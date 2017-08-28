@@ -5,20 +5,19 @@ import Hero from '../components/Hero';
 import Section, {SectionHeader, SectionCoverBasic, SectionCoverCard, SectionBody} from '../components/Section';
 import SpeakerCard from '../components/SpeakerCard';
 import SpeakerCardList from '../components/SpeakerCardList';
+import Schedule from '../components/Schedule';
 
-const {event, introduction, speakers} = data;
+const {subject, event, introduction, speakers, schedule} = data;
 
 const IndexPage = (props) => (
     <div className="wrap index">
         <Head>
-            <title>Welcome to FEConf 2017 - 2017 FEConf Korea</title>
+            <title>{subject}</title>
             <meta name="description" content=""/>
             <meta name="keywords" content=""/>
         </Head>
         <div className="index__inner">
-            <h1 className="index__title blind">
-                Welcome to FEConf 2017 - 2017 FEConf Korea
-            </h1>
+            <h1 className="index__title blind">{subject}</h1>
             <Hero title={event.title} eventTime={event.time}/>
             <Section className="index__introduction">
                 <SectionHeader type="card" title={introduction.title} subTitle={introduction.subTitle}>
@@ -39,6 +38,12 @@ const IndexPage = (props) => (
                             />
                         )}
                     </SpeakerCardList>
+                </SectionBody>
+            </Section>
+            <Section className="index__schedule" bg="gradient">
+                <SectionHeader title={schedule.title} subTitle={schedule.subTitle}/>
+                <SectionBody>
+                    <Schedule schedule={schedule.list}/>
                 </SectionBody>
             </Section>
         </div>

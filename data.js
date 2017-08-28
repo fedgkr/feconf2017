@@ -1,4 +1,5 @@
 export default {
+    subject: 'Welcome to FEConf 2017 - 2017 FEConf Korea',
     event: {
         title: 'FECONF KOREA 2017',
         time: '2017-10-21 10:00:00'

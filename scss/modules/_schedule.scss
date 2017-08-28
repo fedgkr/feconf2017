@@ -5,12 +5,14 @@
 $module: "schedule";
 
 .#{$module} {
-    width: 100%;
     color: $white;
     font-weight: 300;
+    text-align: center;
 
     &__inner {
         position: relative;
+        display: inline-block;
+        width: auto;
     }
 
     &__list {
@@ -31,6 +33,7 @@ $module: "schedule";
         position: relative;
         padding-left: 138px;
         padding-bottom: 60px;
+        text-align: left;
         &:before {
             position: absolute;
             width: 2px;
@@ -121,14 +124,13 @@ $module: "schedule";
     }
 
     @media (max-width: 414px) {
+        padding: 0 20px;
         &__time {
             font-size: 16px;
         }
-
         &__title {
             font-size: 17px;
         }
-
         &__location {
             padding-left: 0;
             font-size: 15px;

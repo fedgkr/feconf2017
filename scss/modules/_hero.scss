@@ -19,7 +19,7 @@ $module: "hero";
     }
 
     &__countdown {
-        padding-top: 126px;
+        padding-top: 140px;
         .countdown {
             margin: 0 auto;
         }
@@ -28,7 +28,7 @@ $module: "hero";
     &__background {
         width: 100%;
         max-width: 667px;
-        margin: 118px auto 0;
+        margin: 140px auto 0;
         padding: 0 20px;
     }
 
@@ -48,7 +48,7 @@ $module: "hero";
         height: 69px;
         background: url('../static/img/img-astronaut.png') no-repeat;
         background-size: 100% auto;
-        top: 450px;
+        top: 520px;
         left: 30px;
         transform: translate3d(0,0);
         animation: move 3s ease infinite alternate;
@@ -62,28 +62,22 @@ $module: "hero";
 
     @media (max-width: 414px) {
         &__countdown {
-            padding-top: 86px;
+            padding-top: 70px;
         }
         &__background {
-            margin-top: 90px;
+            margin-top: 70px;
         }
         &__astronaut {
             width: 32px;
-            top: 320px;
+            top: 300px;
         }
     }
 
     @media (max-width: 320px) {
         padding-bottom: 320px;
-        &__countdown {
-            padding-top: 66px;
-        }
-        &__background {
-            margin-top: 68px;
-        }
         &__astronaut {
             width: 22px;
-            top: 240px;
+            top: 250px;
         }
     }
 }

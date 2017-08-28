@@ -13,15 +13,10 @@ $module: "index";
 
     &__introduction {
         margin-top: -198px;
+        padding: 0;
     }
 
-    &__speakers {
-        padding-top: 86px;
-    }
-
-    @media (max-width: 414px) {
-        &__speakers {
-            padding-top: 43px;
-        }
+    &__schedule .section__body {
+        padding-top: 28px;
     }
 }
