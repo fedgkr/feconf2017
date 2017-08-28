@@ -53,18 +53,18 @@ class Countdown extends React.Component {
         return (
             <div className={`countdown ${className}`} style={style}>
                 <div className="countdown__inner">
-                    {Object.keys(date).map((key, index) =>
-                        <div key={key} className="countdown__time">
+                    {Object.keys(date).map((key, index) => [
+                        <div key={key} className="countdown__hand">
                             <div className="countdown__lamp">{key}</div>
-                            <div className="countdown__date">
+                            <div className="countdown__time">
                                 <div className="countdown__count"><span>{date[key][0]}</span></div>
                                 <div className="countdown__count"><span>{date[key][1]}</span></div>
                             </div>
-                            {index <= 1 ? (
-                                <div className={`countdown__divider countdown__divider--${index === 0 ? 'first' : 'second'}`}/>
-                            ) : null}
-                        </div>
-                    )}
+                        </div>,
+                        index <= 1 ? (
+                            <div className="countdown__divider"/>
+                        ) : null
+                    ])}
                 </div>
             </div>
         );
