@@ -1,11 +1,13 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react';
+import backgrounds from "@storybook/addon-backgrounds";
 import data from '../../data';
 import Schedule from '../../components/Schedule';
 
 storiesOf('Schedule', module)
+    .addDecorator(backgrounds([
+        {name: "$dark-blue", value: '#16193d', default: true}
+    ]))
     .addWithInfo('Default', '', () =>  (
-        <div style={{padding: '100px 0', background: '#293f7c'}}>
-            <Schedule schedule={data.schedule.list}/>
-        </div>
+        <Schedule style={{marginTop: '50px'}} schedule={data.schedule.list}/>
     ));
