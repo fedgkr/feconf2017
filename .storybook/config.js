@@ -12,7 +12,7 @@ setAddon(infoAddon);
 function loadStories() {
     require('./stories/Countdown');
     require('./stories/Section');
-    require('./stories/CardSection');
+    require('./stories/Placard');
     require('./stories/SpeakerCard');
     require('./stories/SpeakerCardList');
     require('./stories/Schedule');

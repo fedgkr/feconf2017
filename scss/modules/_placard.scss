@@ -1,8 +1,8 @@
 // ------------------------------------- //
-// Style of CardSection
+// Style of Placard
 // ------------------------------------- //
 
-$module: "card-section";
+$module: "placard";
 
 .#{$module} {
     width: 100%;
@@ -57,24 +57,16 @@ $module: "card-section";
     }
 
     @media (max-width: 690px) {
-        &__title {
-            font-size: 40px;
-        }
+        &__title {font-size: 40px}
     }
 
     @media (max-width: 568px) {
-        &__card {
-            display: block;
-        }
-        &__cover {
-            padding: 40px;
-        }
+        &__card {display: block}
+        &__cover {padding: 40px}
+        &__body {padding: 0 40px 40px}
         &__sub-title {
             top: 40px;
             right: 40px;
-        }
-        &__body {
-            padding: 0 40px 40px;
         }
     }
 }
