@@ -23,32 +23,21 @@ const IndexPage = (props) => (
             <CardSection className="index__introduction" title={introduction.title} subTitle={introduction.subTitle}>
                 <div dangerouslySetInnerHTML={{__html: introduction.message}}/>
             </CardSection>
-            {/*<Section className="index__introduction">*/}
-                {/*<SectionHeader type="card" title={introduction.title} subTitle={introduction.subTitle}>*/}
-                    {/*<div dangerouslySetInnerHTML={{__html: introduction.message}}/>*/}
-                {/*</SectionHeader>*/}
-            {/*</Section>*/}
-            <Section className="index__speakers">
-                <SectionHeader title={speakers.title} subTitle={speakers.subTitle}/>
-                <SectionBody>
-                    <SpeakerCardList>
-                        {speakers.list.map((speaker, index) =>
-                            <SpeakerCard
-                                key={index}
-                                picture={speaker.picture}
-                                name={speaker.name}
-                                company={speaker.company}
-                                desc={speaker.desc}
-                            />
-                        )}
-                    </SpeakerCardList>
-                </SectionBody>
+            <Section className="index__speakers" title={speakers.title} subTitle={speakers.subTitle}>
+                <SpeakerCardList>
+                    {speakers.list.map((speaker, index) =>
+                        <SpeakerCard
+                            key={index}
+                            picture={speaker.picture}
+                            name={speaker.name}
+                            company={speaker.company}
+                            desc={speaker.desc}
+                        />
+                    )}
+                </SpeakerCardList>
             </Section>
-            <Section className="index__schedule" bg="gradient">
-                <SectionHeader title={schedule.title} subTitle={schedule.subTitle}/>
-                <SectionBody>
-                    <Schedule schedule={schedule.list}/>
-                </SectionBody>
+            <Section className="index__schedule" title={schedule.title} subTitle={schedule.subTitle} bg="gradient">
+                <Schedule schedule={schedule.list}/>
             </Section>
             <CardSection className="index__location" title={location.title} subTitle={location.subTitle}>
                 <span className="index__location-name">MARU180</span>

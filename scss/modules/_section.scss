@@ -28,103 +28,41 @@ $module: "section";
         text-align: center;
     }
 
-    &__header--basic {
-        .#{$module}__sub-title {
-            position: absolute;
-            font-size: 18px;
-            font-family: 'Cloudy';
-            letter-spacing: 3px;
-            color: $orange;
-            margin: 0;
-            line-height: 1;
-            top: 0;
-            left: 0;
-            width: 100%;
-        }
-        .#{$module}__title {
-            font-size: 40px;
-            padding-top: 36px;
-            margin: 0;
-            line-height: 1;
-        }
+    &__title {
+        font-size: 40px;
+        padding-top: 36px;
+        margin: 0;
+        line-height: 1;
     }
 
-    &__header--card {
-        background: $white;
-        box-shadow: 14px 14px 57px rgba(0, 0, 0, .15);
-        position: relative;
-        display: flex;
-        .#{$module}__cover {
-            position: relative;
-            flex: 1;
-            padding: 56px;
-        }
-        .#{$module}__title {
-            padding-top: 40px;
-            margin: 0;
-            text-align: right;
-            font-size: 47px;
-            line-height: 1.2;
-            word-wrap: break-word;
-            word-break: keep-all;
-        }
-        .#{$module}__sub-title {
-            position: absolute;
-            top: 56px;
-            right: 56px;
-            margin: 0;
-            font-family: 'Cloudy';
-            font-size: 17px;
-            letter-spacing: 3px;
-            line-height: 1;
-            color: $orange;
-        }
-        .#{$module}__cover-body {
-            flex: 2;
-            padding: 100px 56px 56px 0;
-            font-size: 18px;
-            line-height: 1.2;
-            font-weight: 300;
-            text-align: left;
-        }
+    &__sub-title {
+        position: absolute;
+        font-size: 18px;
+        font-family: 'Cloudy';
+        letter-spacing: 3px;
+        color: $orange;
+        margin: 0;
+        line-height: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
 
     &__body {
         margin-top: 72px;
     }
 
-    @media (max-width: 690px) {
-        &__header--card &__title {
-            font-size: 40px;
-        }
-    }
-
-    @media (max-width: 568px) {
-        &__header--card {
-            display: block;
-            .#{$module}__cover {
-                padding: 40px;
-            }
-            .#{$module}__sub-title {
-                top: 40px;
-                right: 40px;
-            }
-            .#{$module}__cover-body {
-                padding: 0 40px 40px;
-            }
-        }
-    }
-
     @media (max-width: 414px) {
         padding: 70px 0;
-        &__header--basic {
-            .#{$module}__sub-title {
-                font-size: 16px;
-            }
-            .#{$module}__title {
-                font-size: 34px;
-                padding-top: 30px;
-            }
+        &__sub-title {
+            font-size: 16px;
+        }
+        &__title {
+            font-size: 34px;
+            padding-top: 30px;
+        }
+        &__body {
+            margin-top: 36px;
         }
     }
 }
