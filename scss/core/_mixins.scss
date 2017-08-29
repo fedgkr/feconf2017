@@ -2,14 +2,26 @@
 // Style of Mixins
 // ------------------------------------- //
 
-@mixin tablet {
-    @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+@mixin tablet-basic {
+    @media (max-width: $tablet-basic-width) {
         @content;
     }
 }
 
-@mixin mobile {
-    @media (max-width: #{$tablet-width - 1px}) {
+@mixin tablet-small {
+    @media (max-width: $tablet-small-width) {
+        @content;
+    }
+}
+
+@mixin mobile-basic {
+    @media (max-width: $mobile-basic-width) {
+        @content;
+    }
+}
+
+@mixin mobile-small {
+    @media (max-width: $mobile-small-width) {
         @content;
     }
 }
