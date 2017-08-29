@@ -12,35 +12,61 @@ $module: "index";
     }
 
     &__hero {
-        padding-bottom: 190px;
+        padding-bottom: 330px;
         .countdown {
             margin: 0 auto;
         }
     }
 
-    &__hero-bg {
+    &__poster {
         position: relative;
         max-width: 687px;
         margin: 110px auto 0;
         padding: 0 20px;
+        img {
+            width: 100%;
+        }
+        img:last-child {
+            position: absolute;
+            max-width: 42px;
+            left: -60px;
+            top: 13.910355%;
+            transform: translate3d(0,0);
+            animation: move 3s ease infinite alternate;
+        }
     }
 
-    &__introduction {
-        .placard__card {
-            position: absolute;
-            top: -204px;
-        }
+    &__introduction .placard__card {
+        position: absolute;
+        top: -204px;
     }
 
     &__speakers {
         background: $bg-gray;
-        padding-top: 204px;
+        padding-top: 344px;
     }
 
     &__schedule {
-        padding-bottom: 140px;
+        padding-bottom: 280px;
         .section__title {
             color: $white;
+        }
+    }
+
+    &__background {
+        img:first-child {
+            position: absolute;
+            max-width: 228px;
+            right: 58px;
+            bottom: 180px;
+        }
+        img:last-child {
+            position: absolute;
+            right: 0;
+            bottom: 700px;
+            width: 49px;
+            transform: translate3d(0,0);
+            animation: move 3s ease infinite alternate;
         }
     }
 
@@ -110,67 +136,78 @@ $module: "index";
     &__footer {
         padding: 60px 0 40px;
         text-align: center;
-    }
-
-    &__image {
-        width: 100%;
-        &--hero {
-            max-width: 687px;
-        }
-        &--meteor {
-            position: absolute;
-            max-width: 228px;
-            right: 58px;
-            bottom: 180px;
-        }
-        &--astronaut {
-            position: absolute;
-            left: -60px;
-            top: 0;
-            padding-top: 13.910355%;
-            width: 62px;
-            padding-left: 20px;
-            transform: translate3d(0,0);
-            animation: move 3s ease infinite alternate;
-        }
-        &--astronaut2 {
-            position: absolute;
-            right: 0;
-            bottom: 700px;
-            width: 49px;
-            transform: translate3d(0,0);
-            animation: move 3s ease infinite alternate;
-        }
-        &--feconf {
+        img {
             max-width: 226px;
         }
     }
 
-    @media (max-width: 1024px) {
+    @include tablet-basic {
         &__hero,
-        &__speakers,
-        &__schedule {padding: 0}
+        &__schedule {
+            padding-bottom: 140px;
+        }
+        &__speakers {
+            padding-top: 140px;
+        }
         &__introduction .placard__card,
         &__location .placard__card {
             position: static;
             width: 100%;
         }
-        &__image--astronaut2 {right: 20px}
+        &__background img:last-child {
+            right: 20px;
+        }
     }
 
-    @media (max-width: 767px) {
-        &__image--astronaut {left: 0}
+    @include tablet-small {
+        &__poster img:last-child {
+            left: 20px;
+        }
     }
 
-    @media (max-width: 414px) {
-        &__hero-bg {margin-top: 55px}
-        &__image--meteor {right: 20px}
-        &__image--astronaut {width: 52px}
-        &__image--astronaut2 {width: 39px}
+    @include mobile-basic {
+        &__hero,
+        &__schedule {
+            padding-bottom: 70px;
+        }
+        &__speakers {
+            padding-top: 70px;
+        }
+        &__poster {
+            margin-top: 55px;
+            img:last-child {
+                width: 32px;
+            }
+        }
+        &__background {
+            img.first-child {
+                right: 20px;
+            }
+            img:last-child {
+                width: 39px;
+            }
+        }
+        &__footer {
+            padding: 50px 0 30px;
+            img {
+                max-width: 196px;
+            }
+        }
     }
-    @media (max-width: 320px) {
-        &__image--astronaut {width: 42px}
-        &__maps {padding-bottom: 100%}
+
+    @include mobile-small {
+        &__poster img:last-child {
+            width: 22px;
+        }
+        &__maps {
+            padding-bottom: 100%;
+        }
+        &__footer {
+            padding: 40px 0 20px;
+            img {
+                max-width: 176px;
+            }
+        }
     }
 }
 
