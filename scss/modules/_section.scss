@@ -39,7 +39,7 @@ $module: "section";
         width: 100%;
     }
 
-    &__body {
+    &__header + &__body {
         margin-top: 72px;
     }
 
@@ -52,7 +52,7 @@ $module: "section";
             font-size: 34px;
             padding-top: 30px;
         }
-        &__body {
+        &__header + &__body {
             margin-top: 36px;
         }
     }
