@@ -46,7 +46,7 @@ class Countdown extends React.Component {
         const {className, style} = this.props;
         const {duration} = this.state;
         const date = {
-            days: leftPad(duration.days(), 2, '0').split(''),
+            days: leftPad(parseInt(duration.asDays(), 10), 2, '0').split(''),
             hours: leftPad(duration.hours(), 2, '0').split(''),
             minutes: leftPad(duration.minutes(), 2, '0').split('')
         };
