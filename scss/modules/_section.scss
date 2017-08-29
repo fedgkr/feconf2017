@@ -43,17 +43,13 @@ $module: "section";
         margin-top: 72px;
     }
 
-    @media (max-width: 414px) {
+    @include mobile-basic {
         padding: 70px 0;
-        &__sub-title {
-            font-size: 16px;
-        }
+        &__sub-title {font-size: 16px}
+        &__header + &__body {margin-top: 36px}
         &__title {
             font-size: 34px;
             padding-top: 30px;
-        }
-        &__header + &__body {
-            margin-top: 36px;
         }
     }
 }

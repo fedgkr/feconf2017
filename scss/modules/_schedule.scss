@@ -123,14 +123,10 @@ $module: "schedule";
         min-width: 52px;
     }
 
-    @media (max-width: 414px) {
+    @include mobile-basic {
         padding: 0 20px;
-        &__time {
-            font-size: 16px;
-        }
-        &__title {
-            font-size: 17px;
-        }
+        &__time {font-size: 16px}
+        &__title {font-size: 17px}
         &__location {
             padding-left: 0;
             font-size: 15px;

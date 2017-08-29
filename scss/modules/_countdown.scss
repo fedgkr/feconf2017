@@ -83,16 +83,16 @@ $module: "countdown";
         }
     }
 
-    @media (max-width: 460px) {
+    @include tablet-small {
         &__count {font-size: 58px}
     }
 
-    @media (max-width: 380px) {
+    @include mobile-basic {
         &__count {font-size: 48px}
         &__lamp {font-size: 16px}
     }
 
-    @media (max-width: 320px) {
+    @include mobile-small {
         &__count {font-size: 38px}
         &__lamp {font-size: 14px}
     }

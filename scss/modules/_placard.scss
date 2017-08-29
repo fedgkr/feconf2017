@@ -56,11 +56,11 @@ $module: "placard";
         text-align: left;
     }
 
-    @media (max-width: 690px) {
+    @include tablet-small {
         &__title {font-size: 40px}
     }
 
-    @media (max-width: 568px) {
+    @include mobile-basic {
         &__card {display: block}
         &__cover {padding: 40px}
         &__body {padding: 0 40px 40px}
