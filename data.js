@@ -134,13 +134,13 @@ export default {
         title: '스폰서',
         subTitle: 'SPONSORS',
         list: [{
-            name: 'NAVER',
-            image: '../static/img/logo-naver.png',
-            link: 'https://www.naver.com'
-        }, {
             name: 'LezhinEntertainment',
             image: '../static/img/logo-lezhin.png',
             link: 'https://www.lezhin.com'
+        }, {
+            name: 'NAVER',
+            image: '../static/img/logo-naver.png',
+            link: 'https://www.naver.com'
         }]
     }
 };
