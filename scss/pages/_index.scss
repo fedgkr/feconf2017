@@ -38,7 +38,7 @@ $module: "index";
 
     &__introduction .placard__card {
         position: absolute;
-        top: -204px;
+        transform: translateY(-50%);
     }
 
     &__speakers {
@@ -77,9 +77,13 @@ $module: "index";
         .placard__card {
             position: absolute;
             width: 680px;
-            top: -136px;
+            transform: translateY(-40%);
             right: 0;
         }
+    }
+
+    &__sponsors {
+        background: $bg-gray;
     }
 
     &__footer {
@@ -102,6 +106,7 @@ $module: "index";
         &__location .placard__card {
             position: static;
             width: 100%;
+            transform: translateY(0);
         }
         &__background img:last-child {
             right: 20px;
