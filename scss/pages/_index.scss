@@ -82,42 +82,6 @@ $module: "index";
         }
     }
 
-    &__place {
-        font-size: 47px;
-        font-weight: 700;
-        margin: 0;
-    }
-
-    &__spot {
-        font-size: 20px;
-        color: $light-blue;
-        line-height: 1;
-        margin: 14px 0 0;
-    }
-
-    &__addr {
-        font-size: 19px;
-        font-weight: 400;
-        margin: 19px 0 0;
-    }
-
-    &__sponsors {
-        background: $bg-gray;
-    }
-
-    &__sponsor-list {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        font-size: 0;
-        text-align: center;
-    }
-
-    &__sponsor-item {
-        display: inline-block;
-        padding: 10px;
-    }
-
     &__footer {
         padding: 60px 0 40px;
         text-align: center;

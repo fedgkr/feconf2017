@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Placard = ({className, style, title, subTitle, children}) => (
+const Placard = ({className, style, title, subTitle, html, children}) => (
     <section className={`placard ${className}`} style={style}>
         <div className="placard__inner">
             <div className="placard__card">
@@ -10,6 +10,7 @@ const Placard = ({className, style, title, subTitle, children}) => (
                     <p className="placard__sub-title">{subTitle}</p>
                 </div>
                 <div className="placard__body">
+                    {html ? <div dangerouslySetInnerHTML={{__html: html}}/> : null}
                     {children}
                 </div>
             </div>
@@ -21,7 +22,8 @@ Placard.propTypes = {
     className: PropTypes.string,
     style: PropTypes.object,
     title: PropTypes.string.isRequired,
-    subTitle: PropTypes.string.isRequired
+    subTitle: PropTypes.string.isRequired,
+    html: PropTypes.string
 };
 
 Placard.defaultProps = {

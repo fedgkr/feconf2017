@@ -115,6 +115,19 @@ export default {
     location: {
         title: '장소',
         subTitle: 'LOCATION',
+        message: `
+            <style>
+                .place {font-size: 47px;font-weight: 700;margin: 0}
+                .spot {font-size: 20px;color: #697be4;line-height: 1;margin: 14px 0 0}
+                .addr {font-size: 19px;font-weight: 400;margin: 19px 0 0}
+                 @media (max-width: 414px) {
+                    .place {font-size: 40px} 
+                 }
+            </style>
+            <p class="place">MARU180</p>
+            <p class="spot">@Gangnam</p>
+            <p class="addr">서울 강남구 역삼로 180(역삼동, 790-6)</p>
+        `,
         position: [37.495482, 127.038741]
     },
     sponsors: {

@@ -28,9 +28,12 @@ const IndexPage = (props) => (
                     <img src="../static/img/img-astronaut.png" aria-hidden="true"/>
                 </div>
             </Section>
-            <Placard className="index__introduction" title={introduction.title} subTitle={introduction.subTitle}>
-                <div dangerouslySetInnerHTML={{__html: introduction.message}}/>
-            </Placard>
+            <Placard
+                className="index__introduction"
+                title={introduction.title}
+                subTitle={introduction.subTitle}
+                html={introduction.message}
+            />
             <Section className="index__speakers" title={speakers.title} subTitle={speakers.subTitle}>
                 <SpeakerCardList>
                     {speakers.list.map((speaker, index) =>
@@ -51,11 +54,12 @@ const IndexPage = (props) => (
                 </div>
                 <Schedule schedule={schedule.list}/>
             </Section>
-            <Placard className="index__location" title={location.title} subTitle={location.subTitle}>
-                <p className="index__place">MARU180</p>
-                <p className="index__spot">@Gangnam</p>
-                <p className="index__addr">서울 강남구 역삼로 180(역삼동, 790-6)</p>
-            </Placard>
+            <Placard
+                className="index__location"
+                title={location.title}
+                subTitle={location.subTitle}
+                html={location.message}
+            />
             <GoogleMaps lat={location.position[0]} lng={location.position[1]}/>
             <Section className="index__sponsors" title={sponsors.title} subTitle={sponsors.subTitle}>
                 <ul className="index__sponsor-list">
