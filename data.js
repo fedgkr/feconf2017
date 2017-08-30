@@ -4,7 +4,7 @@ export default {
         time: '2017-10-21 10:00:00'
     },
     introduction: {
-        title: '프론트엔드 컨퍼런스 코리아',
+        title: '프론트엔드<br/>컨퍼런스<br/>코리아',
         subTitle: 'INTRODUCTION',
         message: `
             (컨퍼런스 소개 글 삽입영역)<br/>

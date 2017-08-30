@@ -52,7 +52,7 @@ class IndexPage extends React.Component {
                         <div>
                             <Placard
                                 className="index__introduction"
-                                title={introduction.title}
+                                title={<span dangerouslySetInnerHTML={{__html: introduction.title}}/>}
                                 subTitle={introduction.subTitle}
                                 html={introduction.message}
                             />
