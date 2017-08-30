@@ -16,6 +16,7 @@ function loadStories() {
     require('./stories/SpeakerCard');
     require('./stories/SpeakerCardList');
     require('./stories/Schedule');
+    require('./stories/GoogleMaps');
 }
 
 configure(loadStories, module);

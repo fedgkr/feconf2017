@@ -114,7 +114,8 @@ export default {
     },
     location: {
         title: '장소',
-        subTitle: 'LOCATION'
+        subTitle: 'LOCATION',
+        position: [37.495482, 127.038741]
     },
     sponsors: {
         title: '스폰서',

@@ -8,6 +8,7 @@ import Countdown from '../components/Countdown';
 import SpeakerCard from '../components/SpeakerCard';
 import SpeakerCardList from '../components/SpeakerCardList';
 import Schedule from '../components/Schedule';
+import GoogleMaps from '../components/GoogleMaps';
 
 const {event, introduction, speakers, schedule, location, sponsors} = data;
 
@@ -55,13 +56,7 @@ const IndexPage = (props) => (
                 <p className="index__spot">@Gangnam</p>
                 <p className="index__addr">서울 강남구 역삼로 180(역삼동, 790-6)</p>
             </Placard>
-            <div className="index__maps">
-                <iframe
-                    className="index__google-map"
-                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyALoKKKmR6L3eSWXQCejxODKbkY1feRTPk
-                    &q=Seoul+MARU180" allowFullScreen>
-                </iframe>
-            </div>
+            <GoogleMaps lat={location.position[0]} lng={location.position[1]}/>
             <Section className="index__sponsors" title={sponsors.title} subTitle={sponsors.subTitle}>
                 <ul className="index__sponsor-list">
                     <li className="index__sponsor-item">

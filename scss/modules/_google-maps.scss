@@ -1,0 +1,20 @@
+// ------------------------------------- //
+// Style of GoogleMaps
+// ------------------------------------- //
+
+$module: "google-maps";
+
+.#{$module} {
+    width: 100%;
+
+    &__inner {
+        position: relative;
+        padding-bottom: 50.25%;
+    }
+
+    @include mobile-basic {
+        &__inner {
+            padding-bottom: 100%;
+        }
+    }
+}
