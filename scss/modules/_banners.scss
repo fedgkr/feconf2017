@@ -12,7 +12,7 @@ $module: "banners";
     }
 
     &__list {
-        padding: 0 10px;
+        padding: 0 20px;
         margin: 0;
         list-style: none;
         font-size: 0;
@@ -20,10 +20,10 @@ $module: "banners";
     }
 
     &__item {
-        max-width: 190px;
+        max-width: 210px;
         display: inline-block;
         vertical-align: middle;
-        padding: 10px;
+        padding: 20px;
         img {
             width: 100%;
         }
