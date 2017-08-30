@@ -9,6 +9,7 @@ import SpeakerCard from '../components/SpeakerCard';
 import SpeakerCardList from '../components/SpeakerCardList';
 import Schedule from '../components/Schedule';
 import GoogleMaps from '../components/GoogleMaps';
+import Banners from '../components/Banners';
 
 const {event, introduction, speakers, schedule, location, sponsors} = data;
 
@@ -62,16 +63,7 @@ const IndexPage = (props) => (
             />
             <GoogleMaps lat={location.position[0]} lng={location.position[1]}/>
             <Section className="index__sponsors" title={sponsors.title} subTitle={sponsors.subTitle}>
-                <ul className="index__sponsor-list">
-                    <li className="index__sponsor-item">
-                        <img src="../static/img/logo-lezhin.png" alt="레진엔터테인먼트 대표 이미지"/>
-                        <span className="blind">레진엔터테인먼트</span>
-                    </li>
-                    <li className="index__sponsor-item">
-                        <img src="../static/img/logo-naver.png" alt="네이버 대표 이미지"/>
-                        <span className="blind">네이버</span>
-                    </li>
-                </ul>
+                <Banners list={sponsors.list}/>
             </Section>
             <Section className="index__footer" tag="footer">
                 <img src="../static/img/logo-feconf.png" alt="FEConf 2017 대표 이미지"/>
