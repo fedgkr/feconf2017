@@ -21,30 +21,40 @@ export default {
         title: '발표자',
         subTitle: 'SPEAKERS',
         list: [{
-            picture: 'https://avatars2.githubusercontent.com/u/6267393?v=4&s=400',
-            name: '조은',
-            company: '우아한형제',
-            desc: '눈먼 손으로 나는 삶을 만져보았네 그건 가시 투성이였어 가시투성이 삶의 온몸을 만지면서 나는 미소지었지 이토록 가시가 많으니 곧 장미꽃이 피겠구나라고.'
+            picture: './static/img/img-user.png',
+            name: '임정호',
+            company: 'Company',
+            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
         }, {
-            picture: 'https://avatars2.githubusercontent.com/u/1321707?v=4&s=460',
-            name: '주우영',
-            company: '레진엔터테인먼트',
-            desc: '깊이 앓으십시오 앓음답도록 아름답도록'
+            picture: './static/img/img-user.png',
+            name: '김양원',
+            company: 'Company',
+            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
         }, {
-            picture: 'https://avatars0.githubusercontent.com/u/19799263?v=4&s=460',
-            name: '이두용',
-            company: '레진엔터테인먼트',
-            desc: '한때는 모든 것이 여기에 있었다 그렇다, 나는 삶을 불태우고 싶었다 다른 모든 것이 하찮은 것이 되어 버릴 때까지 다만 그것들은 얼마나 빨리 내게서 멀어졌는가'
+            picture: './static/img/img-user.png',
+            name: '김양원',
+            company: 'Company',
+            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
         }, {
-            picture: 'https://avatars1.githubusercontent.com/u/13197080?v=4&s=460',
-            name: '김태훈',
-            company: '네이버',
-            desc: '우리 살아가는 일 속에 파도치는 날 바람 부는 날이 어디 한두 번 이랴 그런 날은 조용히 닻을 내리고 오늘 일을 잠시라도 낮은 곳에 묻어두어야 한다'
+            picture: './static/img/img-user.png',
+            name: '서정명',
+            company: 'Company',
+            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
         }, {
-            picture: 'https://avatars1.githubusercontent.com/u/13933210?v=4&s=460',
-            name: '문주영',
-            company: 'NC소프트',
-            desc: '오늘 밤 주인공은 나야 나 너만을 기다려 온 나야 나 네 마음을 훔칠 사람 나야 나 마지막 단 한 사람 나야 나 오늘 밤 주인공은 나야 나 너만을 기다려 온 나야 나 네 마음을 훔칠 사람 나야 나 마지막 단 한 사람 나야 나'
+            picture: './static/img/img-user.png',
+            name: '고재도',
+            company: 'Company',
+            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
+        }, {
+            picture: './static/img/img-user.png',
+            name: '손찬욱',
+            company: 'Company',
+            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
+        }, {
+            picture: './static/img/img-user.png',
+            name: 'Bjorn Tegelund',
+            company: 'Company',
+            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
         }]
     },
     schedule: {
@@ -60,20 +70,20 @@ export default {
             icon: 'double-circle',
             startTime: '10:00',
             endTime: '10:40',
-            title: '세션 1',
-            location: ['KAKAO', '김양원']
+            title: '브라우저 렌더링 퍼포먼스 최적화',
+            location: ['Company', '임정호']
         }, {
             icon: 'double-circle',
             startTime: '10:50',
             endTime: '11:30',
-            title: '네이버는 왜 오픈소스를 하는가',
-            location: ['NAVER LABS', '이한나']
+            title: 'JavaScript Fatigue',
+            location: ['Company', '김양원']
         }, {
             icon: 'double-circle',
             startTime: '11:40',
             endTime: '12:20',
-            title: '세션 3',
-            location: ['우아한 형제들', '신동엽']
+            title: '일렉트론으로 제품 만들기',
+            location: ['Company', '서정명']
         }, {
             icon: 'circle',
             startTime: '12:20',
@@ -84,26 +94,26 @@ export default {
             icon: 'double-circle',
             startTime: '13:20',
             endTime: '14:00',
-            title: '세션 4',
-            location: ['Google', '신세경']
+            title: 'React SPA 삽질기',
+            location: ['Company', '김동우']
         }, {
             icon: 'double-circle',
             startTime: '14:10',
             endTime: '14:50',
-            title: '세션 5',
-            location: ['NAVER LABS', '이한나']
+            title: 'Angular4로 실제 서비스 만들기',
+            location: ['Company', '고재도']
         }, {
             icon: 'double-circle',
             startTime: '15:00',
             endTime: '15:40',
-            title: '세션 6',
-            location: ['NAVER LABS', '이한나']
+            title: 'RxJS의 모든것',
+            location: ['Company', '손찬욱']
         }, {
             icon: 'double-circle',
             startTime: '15:50',
             endTime: '16:30',
-            title: '세션 7',
-            location: ['우아한 형제들', '신동엽']
+            title: '텀블벅 개발기',
+            location: ['Company', 'Bjorn Tegelund']
         }, {
             icon: 'circle',
             startTime: '16:30',
