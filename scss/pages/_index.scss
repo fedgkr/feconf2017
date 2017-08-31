@@ -108,6 +108,7 @@ $module: "index";
             width: 100%;
             transform: translateY(0);
         }
+        &__background img:first-child,
         &__background img:last-child {
             right: 20px;
         }
