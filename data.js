@@ -33,7 +33,7 @@ export default {
         }, {
             picture: './static/img/img-speaker-3.jpeg',
             name: '서정명',
-            company: 'NCSoft',
+            company: 'NCsoft',
             desc: '게임회사 프론트엔드 개발자. 회사내의 비주류 개발자가 개발하는 비주류 서비스 이야기를 들려 드립니다.'
         }, {
             picture: './static/img/img-user.png',
@@ -41,10 +41,10 @@ export default {
             company: 'Company',
             desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
         }, {
-            picture: './static/img/img-user.png',
+            picture: './static/img/img-speaker-5.png',
             name: '고재도',
-            company: 'Company',
-            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
+            company: 'Flitto',
+            desc: '엥귤러로 대시보드를 만들면서 경험한 내용들을 공유합니다. 컴포넌트 간의 데이터를 전달한 방법이나 ngrx에 대한 내용을 주로 다룹니다.'
         }, {
             picture: './static/img/img-user.png',
             name: '손찬욱',
@@ -83,7 +83,7 @@ export default {
             startTime: '11:40',
             endTime: '12:20',
             title: ' electron으로 만드는 데스크탑 메신저 앱',
-            location: ['NCSoft', '서정명']
+            location: ['NCsoft', '서정명']
         }, {
             icon: 'circle',
             startTime: '12:20',
@@ -100,8 +100,8 @@ export default {
             icon: 'double-circle',
             startTime: '14:10',
             endTime: '14:50',
-            title: 'Angular4로 실제 서비스 만들기',
-            location: ['Company', '고재도']
+            title: '엥귤러 컴포넌트 대화법',
+            location: ['Flitto', '고재도']
         }, {
             icon: 'double-circle',
             startTime: '15:00',
