@@ -21,23 +21,23 @@ export default {
         title: '발표자',
         subTitle: 'SPEAKERS',
         list: [{
-            picture: './static/img/img-user.png',
-            name: '임정호',
-            company: 'Company',
-            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
+            picture: './static/img/img-speaker-1.jpeg',
+            name: 'Robin Rheem',
+            company: '레진엔터테인먼트',
+            desc: 'var whatToSay = "Always engineer the shi* out of everything.";'
         }, {
             picture: './static/img/img-user.png',
             name: '김양원',
             company: 'Company',
             desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
         }, {
-            picture: './static/img/img-user.png',
-            name: '김양원',
-            company: 'Company',
-            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
-        }, {
-            picture: './static/img/img-user.png',
+            picture: './static/img/img-speaker-3.jpeg',
             name: '서정명',
+            company: 'NCSoft',
+            desc: '게임회사 프론트엔드 개발자. 회사내의 비주류 개발자가 개발하는 비주류 서비스 이야기를 들려 드립니다.'
+        }, {
+            picture: './static/img/img-user.png',
+            name: '김동우',
             company: 'Company',
             desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
         }, {
@@ -70,8 +70,8 @@ export default {
             icon: 'double-circle',
             startTime: '10:00',
             endTime: '10:40',
-            title: '브라우저 렌더링 퍼포먼스 최적화',
-            location: ['Company', '임정호']
+            title: 'Performance Optimization',
+            location: ['레진엔터테인먼트', 'Robin Rheem']
         }, {
             icon: 'double-circle',
             startTime: '10:50',
@@ -82,8 +82,8 @@ export default {
             icon: 'double-circle',
             startTime: '11:40',
             endTime: '12:20',
-            title: '일렉트론으로 제품 만들기',
-            location: ['Company', '서정명']
+            title: ' electron으로 만드는 데스크탑 메신저 앱',
+            location: ['NCSoft', '서정명']
         }, {
             icon: 'circle',
             startTime: '12:20',
