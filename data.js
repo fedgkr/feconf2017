@@ -26,10 +26,10 @@ export default {
             company: '레진엔터테인먼트',
             desc: 'var whatToSay = "Always engineer the shi* out of everything.";'
         }, {
-            picture: './static/img/img-user.png',
+            picture: './static/img/img-speaker-2.png',
             name: '김양원',
-            company: 'Company',
-            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
+            company: 'TTCC',
+            desc: 'Javascript 는 언젠가 개발자들에게 피로감을 주는 달리 말하면 배워야할께 너무 많은 환경이 되어가고 있고 이런 흐름이 어디서부터 발현되었고 어떠한 변화들과 그 변화들이 추구하는 빅비쳐는 무엇인지를 이야기하고 이를 통해 자바스크립트의 피로감을 조금 덜어보려고 합니다.'
         }, {
             picture: './static/img/img-speaker-3.jpeg',
             name: '서정명',
@@ -77,7 +77,7 @@ export default {
             startTime: '10:50',
             endTime: '11:30',
             title: 'JavaScript Fatigue',
-            location: ['Company', '김양원']
+            location: ['TTCC', '김양원']
         }, {
             icon: 'double-circle',
             startTime: '11:40',
