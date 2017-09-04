@@ -51,10 +51,10 @@ export default {
             company: 'Company',
             desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
         }, {
-            picture: './static/img/img-user.png',
+            picture: './static/img/img-speaker-7.jpg',
             name: 'Bjorn Tegelund',
-            company: 'Company',
-            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
+            company: 'Tumblbug',
+            desc: '코드는 가치가 있는 것을 만들기 위한 도구일 뿐입니다. 무엇을 왜 하는지 의식하는 것이 제일 중요합니다.'
         }]
     },
     schedule: {
@@ -112,8 +112,8 @@ export default {
             icon: 'double-circle',
             startTime: '15:50',
             endTime: '16:30',
-            title: '텀블벅 개발기',
-            location: ['Company', 'Bjorn Tegelund']
+            title: '최근 1년 동안 새로운 팀이 새로운 기술로 새로운 프론트엔드를 만들면서 얻은 교훈들',
+            location: ['Tumblbug', 'Bjorn Tegelund']
         }, {
             icon: 'circle',
             startTime: '16:30',
