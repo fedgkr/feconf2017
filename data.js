@@ -32,37 +32,44 @@ export default {
         list: [{
             picture: './static/img/img-speaker-1.jpeg',
             name: 'Robin Rheem',
-            company: '레진엔터테인먼트',
+            company: 'LezhinEntertainment',
+            link: 'https://www.lezhin.com',
             desc: 'var whatToSay = "Always engineer the shi* out of everything.";'
         }, {
             picture: './static/img/img-speaker-2.png',
             name: '김양원',
             company: 'TTCC',
+            link: 'https://triple.guide/',
             desc: 'Javascript 는 언젠가 개발자들에게 피로감을 주는 달리 말하면 배워야할께 너무 많은 환경이 되어가고 있고 이런 흐름이 어디서부터 발현되었고 어떠한 변화들과 그 변화들이 추구하는 빅비쳐는 무엇인지를 이야기하고 이를 통해 자바스크립트의 피로감을 조금 덜어보려고 합니다.'
         }, {
             picture: './static/img/img-speaker-3.jpeg',
             name: '서정명',
             company: 'NCsoft',
+            link: 'http://kr.ncsoft.com/korean/',
             desc: '게임회사 프론트엔드 개발자. 회사내의 비주류 개발자가 개발하는 비주류 서비스 이야기를 들려 드립니다.'
         }, {
             picture: './static/img/img-speaker-4.jpg',
             name: '김동우',
             company: '공개SW개발자Lab',
+            link: 'https://kosslab.kr/',
             desc: 'React, Router, Redux, Webpack 까지 공부하느라 지쳤는데, 이제 Redux의 대세는 Saga라고 합니다. (그만 좀 나와라...)'
         }, {
             picture: './static/img/img-speaker-5.png',
             name: '고재도',
             company: 'Flitto',
+            link: 'https://www.flitto.com/',
             desc: '엥귤러로 대시보드를 만들면서 경험한 내용들을 공유합니다. 컴포넌트 간의 데이터를 전달한 방법이나 ngrx에 대한 내용을 주로 다룹니다.'
         }, {
             picture: './static/img/img-user.png',
             name: '손찬욱',
             company: 'NAVER',
+            link: 'https://www.naver.com',
             desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
         }, {
             picture: './static/img/img-speaker-7.jpg',
             name: 'Bjorn Tegelund',
             company: 'Tumblbug',
+            link: 'https://tumblbug.com/',
             desc: '코드는 가치가 있는 것을 만들기 위한 도구일 뿐입니다. 무엇을 왜 하는지 의식하는 것이 제일 중요합니다.'
         }]
     },

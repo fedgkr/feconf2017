@@ -59,13 +59,7 @@ class IndexPage extends React.Component {
                             <Section className="index__speakers" title={speakers.title} subTitle={speakers.subTitle}>
                                 <SpeakerCardList>
                                     {speakers.list.map((speaker, index) =>
-                                        <SpeakerCard
-                                            key={index}
-                                            picture={speaker.picture}
-                                            name={speaker.name}
-                                            company={speaker.company}
-                                            desc={speaker.desc}
-                                        />
+                                        <SpeakerCard key={index} {...speaker}/>
                                     )}
                                 </SpeakerCardList>
                             </Section>

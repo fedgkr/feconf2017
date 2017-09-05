@@ -12,7 +12,7 @@ $module: "speaker-card";
         background: $white;
         margin-top: 32px;
         padding: 38px;
-        &:before {
+        &:after {
             position: absolute;
             top: 0;
             left: 0;
@@ -20,6 +20,7 @@ $module: "speaker-card";
             height: 100%;
             box-shadow: 14px 14px 32px rgba(0, 0, 0, .05);
             content: ' ';
+            z-index: -1;
         }
     }
 
@@ -48,10 +49,13 @@ $module: "speaker-card";
 
     &__company {
         font-size: 13px;
-        color: $light-blue;
         line-height: 1;
         margin: 14px 0 0;
         font-weight: 300;
+        a {
+            color: $light-blue;
+            text-decoration: none;
+        }
     }
 
     &__greeting {
