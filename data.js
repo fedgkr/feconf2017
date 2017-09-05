@@ -36,10 +36,10 @@ export default {
             company: 'NCsoft',
             desc: '게임회사 프론트엔드 개발자. 회사내의 비주류 개발자가 개발하는 비주류 서비스 이야기를 들려 드립니다.'
         }, {
-            picture: './static/img/img-user.png',
+            picture: './static/img/img-speaker-4.jpg',
             name: '김동우',
-            company: 'Company',
-            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
+            company: '공개SW개발자Lab',
+            desc: 'React, Router, Redux, Webpack 까지 공부하느라 지쳤는데, 이제 Redux의 대세는 Saga라고 합니다. (그만 좀 나와라...)'
         }, {
             picture: './static/img/img-speaker-5.png',
             name: '고재도',
@@ -94,8 +94,8 @@ export default {
             icon: 'double-circle',
             startTime: '13:20',
             endTime: '14:00',
-            title: 'React SPA 삽질기',
-            location: ['Company', '김동우']
+            title: 'Redux-thunk에서 Redux-saga로 이사하기',
+            location: ['공개SW개발자Lab', '김동우']
         }, {
             icon: 'double-circle',
             startTime: '14:10',
