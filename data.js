@@ -48,7 +48,7 @@ export default {
         }, {
             picture: './static/img/img-user.png',
             name: '손찬욱',
-            company: 'Company',
+            company: 'NAVER',
             desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
         }, {
             picture: './static/img/img-speaker-7.jpg',
@@ -107,7 +107,7 @@ export default {
             startTime: '15:00',
             endTime: '15:40',
             title: 'RxJS의 모든것',
-            location: ['Company', '손찬욱']
+            location: ['NAVER', '손찬욱']
         }, {
             icon: 'double-circle',
             startTime: '15:50',
