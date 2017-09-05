@@ -7,14 +7,23 @@ export default {
         title: '프론트엔드<br/>컨퍼런스<br/>코리아',
         subTitle: 'INTRODUCTION',
         message: `
-            (컨퍼런스 소개 글 삽입영역)<br/>
-            개발의 가능성을 최대한 이끌어 내려면, 언어의 한계를 알아야만 한다.<br/><br/>
-            자바스크립트 구루이자 노련한 저자인 니콜라스 자카스는 이 책에서,<br/>
-            자바스크립트의 기초부터 DOM, Ajax, HTML5까지를 설명한다.<br/><br/>
-            상황에 따라 자바스크립트를 어떤 식으로 확장할 수 있는지,<br/>
-            역동적인 사용자 인터페이스는 어떻게 만들 수 있는지를 풍부한<br/><br/>
-            예제를 곁들여 알려준다.<br/><br/>
-            2017.10.21 9:30 ~ 16:30 @Seoul
+            <style>
+                .intro-strong {font-size:34px}
+                @media (max-width:640px) {.intro-strong {font-size:28px}}
+                @media (max-width:320px) {.intro-strong {font-size:22px}}
+            </style>
+            프론트엔드 개발자에 의한!<br/>
+            프론트엔드 개발자를 위한!<br/><br/>
+            <strong class="intro-strong">
+                프론트엔드 개발의<br/>
+                소중한 경험을 공유합니다!
+            </strong>
+            <br/><br/>
+            프론트엔드를 개발하며 마주했던<br/>
+            치열한 고민과 깊은 인사이트를 공유하며<br/>
+            여러분과 함께 성장하고 싶습니다!<br/><br/>
+            2017.10.21 9:30 ~ 16:30 @Seoul<br/>
+            ※ 발표가 끝나면 참석자들과 함께하는 네트워크 시간을 마련합니다!
         `
     },
     speakers: {
@@ -131,9 +140,7 @@ export default {
                 .place a {font-size:47px;color:#16193d;font-weight:700;text-decoration:none}
                 .spot {font-size:20px;color:#697be4;line-height:1;margin: 14px 0 0}
                 .addr {font-size:19px;font-weight:400;margin:19px 0 0}
-                 @media (max-width:414px) {
-                    .place {font-size:40px} 
-                 }
+                 @media (max-width:640px) {.place {font-size:40px}}
             </style>
             <p class="place"><a href="http://maru180.com/pcindex.php">MARU180</a></p>
             <p class="spot">@Gangnam</p>
