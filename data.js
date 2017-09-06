@@ -165,7 +165,7 @@ export default {
         }, {
             name: 'NAVER',
             image: '../static/img/logo-naver.png',
-            link: 'https://www.naver.com'
+            link: 'http://www.navercorp.com'
         }]
     }
 };
