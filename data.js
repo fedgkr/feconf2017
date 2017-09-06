@@ -44,7 +44,7 @@ export default {
             picture: './static/img/img-speaker-3.jpeg',
             name: '서정명',
             company: findCompany('NCsoft'),
-            desc: '게임회사 프론트엔드 개발자. 회사내의 비주류 개발자가 개발하는 비주류 서비스 이야기를 들려 드립니다.'
+            desc: '최대한 데스크탑 앱 스럽게... 프론트엔드 개발자가 electron을 사용하여 웹 메신저를 데스크탑 앱으로 만드는 과정을 들려 드립니다.'
         }, {
             picture: './static/img/img-speaker-4.jpg',
             name: '김동우',
