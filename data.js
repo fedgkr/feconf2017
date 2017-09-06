@@ -59,7 +59,7 @@ export default {
             picture: './static/img/img-speaker-6.jpg',
             name: '손찬욱',
             company: findCompany('NAVER'),
-            desc: 'Reactive Programming, Funtional Programming. ReactiveX와 같은 복잡한 용어는 이제 그만. RxJS를 살펴봄으로써 개발자로서 고민해야할 부분들에 대해 이야기합니다. 쉽게 써봅시다. RxJS!'
+            desc: 'Reactive Programming, Functional Programming. ReactiveX와 같은 복잡한 용어는 이제 그만. RxJS를 살펴봄으로써 개발자로서 고민해야할 부분들에 대해 이야기합니다. 쉽게 써봅시다. RxJS!'
         }, {
             picture: './static/img/img-speaker-7.jpg',
             name: 'Bjorn Tegelund',
