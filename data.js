@@ -12,18 +12,17 @@ export default {
                 @media (max-width:640px) {.intro-strong {font-size:28px}}
                 @media (max-width:320px) {.intro-strong {font-size:22px}}
             </style>
-            프론트엔드 개발자에 의한!<br/>
-            프론트엔드 개발자를 위한!<br/><br/>
             <strong class="intro-strong">
                 프론트엔드 개발의<br/>
                 소중한 경험을 공유합니다!
             </strong>
             <br/><br/>
+            프론트엔드 개발자에 의한! 프론트엔드 개발자를 위한!<br/><br/>
             프론트엔드를 개발하며 마주했던<br/>
             치열한 고민과 깊은 인사이트를 공유하며<br/>
             여러분과 함께 성장하고 싶습니다!<br/><br/>
             2017.10.21 9:30 ~ 16:30 @Seoul<br/>
-            ※ 발표가 끝나면 참석자들과 함께하는 네트워크 시간을 마련합니다!
+            발표가 끝나면 참석자들과 함께하는 네트워크 시간을 마련합니다!
         `
     },
     speakers: {
