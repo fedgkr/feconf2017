@@ -18,6 +18,7 @@ function loadStories() {
     require('./stories/Schedule');
     require('./stories/GoogleMaps');
     require('./stories/Banners');
+    require('./stories/Button');
 }
 
 configure(loadStories, module);

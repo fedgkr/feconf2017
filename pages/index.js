@@ -10,6 +10,7 @@ import SpeakerCardList from '../components/SpeakerCardList';
 import Schedule from '../components/Schedule';
 import GoogleMaps from '../components/GoogleMaps';
 import Banners from '../components/Banners';
+import Button from '../components/Button';
 
 const {
     event,
@@ -47,6 +48,9 @@ class IndexPage extends React.Component {
                             <img src="../static/img/img-hero.png" alt="FEConf 2017 포스터 이미지"/>
                             <img src="../static/img/img-astronaut.png" aria-hidden="true"/>
                         </div>
+                        <div className="index__participate-link index__participate-link--top">
+                            <Button tag="a" href="#" type="light">행사 참여하기</Button>
+                        </div>
                     </Section>
                     {this.state.showSections ? (
                         <div>
@@ -82,6 +86,9 @@ class IndexPage extends React.Component {
                             </Section>
                             <Section className="index__footer" tag="footer">
                                 <img src="../static/img/logo-feconf.png" alt="FEConf 2017 대표 이미지"/>
+                                <div className="index__participate-link">
+                                    <Button tag="a" href="#" type="light">행사 참여하기</Button>
+                                </div>
                             </Section>
                         </div>
                     ) : null}

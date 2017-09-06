@@ -114,6 +114,14 @@ $module: "index";
         }
     }
 
+    &__participate-link {
+        margin: 40px auto;
+        text-align: center;
+        &--top .button {
+            color: $dark-blue;
+        }
+    }
+
     @include tablet-small {
         &__poster img:last-child {
             left: 20px;

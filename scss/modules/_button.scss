@@ -1,0 +1,35 @@
+// ------------------------------------- //
+// Style of Button
+// ------------------------------------- //
+
+$module: "button";
+
+.#{$module} {
+    display: inline-block;
+    font-size: 20px;
+    background: transparent;
+    border: 0;
+    line-height: 1.25;
+    padding: 11.5px 30px;
+    text-align: center;
+
+    &__inner {
+        position: relative;
+    }
+
+    &--primary {
+        background: $light-blue;
+        color: $white;
+        &:hover {
+            background: darken($light-blue, 9%);
+        }
+    }
+
+    &--light {
+        background: $white;
+        color: $light-blue;
+        &:hover {
+            background: darken($white, 9%);
+        }
+    }
+}
