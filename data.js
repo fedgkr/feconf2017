@@ -148,7 +148,7 @@ export default {
                 .addr {font-size:19px;font-weight:400;margin:19px 0 0}
                  @media (max-width:640px) {.place {font-size:40px}}
             </style>
-            <p class="place"><a href="http://maru180.com/pcindex.php">MARU180</a></p>
+            <p class="place"><a href="http://maru180.com">MARU180</a></p>
             <p class="spot">@Gangnam</p>
             <p class="addr">서울 강남구 역삼로 180(역삼동, 790-6)</p>
         `,
