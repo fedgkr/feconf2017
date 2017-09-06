@@ -84,16 +84,19 @@ $module: "schedule";
         line-height: 1.2;
     }
 
-    &__location {
+    &__meta {
         font-size: 17px;
         margin: 16px 0 0;
         color: #96a2de;
         line-height: 1;
         padding-left: 20px;
 
-        span {
+        span{
             position: relative;
             padding-right: 18px;
+            a {
+                color: #96a2de;
+            }
         }
         span:after {
             position: absolute;

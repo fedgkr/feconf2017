@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const SpeakerCard = ({className, style, picture, name, company, link, desc}) => (
+const SpeakerCard = ({className, style, picture, name, company, desc}) => (
     <div className={`speaker-card ${className}`} style={style}>
         <div className="speaker-card__inner">
             <div className="speaker-card__avatar">
@@ -9,7 +9,7 @@ const SpeakerCard = ({className, style, picture, name, company, link, desc}) => 
             </div>
             <div className="speaker-card__profile">
                 <h4 className="speaker-card__name">{name}</h4>
-                <p className="speaker-card__company"><a href={link}>{company}</a></p>
+                <p className="speaker-card__company"><a href={company.link}>{company.name}</a></p>
                 <p className="speaker-card__greeting">{desc}</p>
             </div>
         </div>
@@ -21,7 +21,7 @@ SpeakerCard.propTypes = {
     style: PropTypes.object,
     picture: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
-    company: PropTypes.string.isRequired,
+    company: PropTypes.object.isRequired,
     desc: PropTypes.string.isRequired
 };
 

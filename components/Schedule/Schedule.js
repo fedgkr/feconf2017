@@ -5,18 +5,22 @@ const Schedule = ({className, style, schedule}) => (
     <div className={`schedule ${className}`} style={style}>
         <div className="schedule__inner">
             <ul className="schedule__list">
-                {schedule.map(({icon, title, startTime, endTime, location}, index) =>
+                {schedule.map(({icon, title, startTime, endTime, location, speaker}, index) =>
                     <li className="schedule__item" key={index}>
                         <div className="schedule__information">
                             <i className={`schedule__ico schedule__ico--${icon}`}/>
                             <h4 className="schedule__title">{title}</h4>
-                            {location.length > 0 ?
-                                <p className="schedule__location">
-                                    {location.map((value, index) =>
-                                        <span key={index}>{value}</span>
-                                    )}
+                            {location ?
+                                <p className="schedule__meta">
+                                    <span>{location}</span>
                                 </p>
                              : null}
+                            {speaker ? (
+                                <p className="schedule__meta">
+                                    <span><a href={speaker.company.link}>{speaker.company.name}</a></span>
+                                    <span>{speaker.name}</span>
+                                </p>
+                            ) : null}
                         </div>
                         <div className="schedule__time">
                             <time className="schedule__start-time">{startTime}</time>
