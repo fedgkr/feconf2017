@@ -12,7 +12,7 @@ $module: "schedule";
     &__inner {
         position: relative;
         display: inline-block;
-        max-width: 520px;
+        max-width: 640px;
         width: auto;
     }
 
@@ -130,9 +130,10 @@ $module: "schedule";
 
     @include mobile-basic {
         padding: 0 20px;
+        &__inner {display:block}
         &__time {font-size: 16px}
         &__title {font-size: 17px}
-        &__location {
+        &__meta {
             padding-left: 0;
             font-size: 15px;
         }
