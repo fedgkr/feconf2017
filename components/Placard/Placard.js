@@ -21,7 +21,7 @@ const Placard = ({className, style, title, subTitle, html, children}) => (
 Placard.propTypes = {
     className: PropTypes.string,
     style: PropTypes.object,
-    title: PropTypes.string.isRequired,
+    title: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
     subTitle: PropTypes.string.isRequired,
     html: PropTypes.string
 };
