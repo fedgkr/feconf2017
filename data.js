@@ -60,11 +60,11 @@ export default {
             link: 'https://www.flitto.com/',
             desc: '엥귤러로 대시보드를 만들면서 경험한 내용들을 공유합니다. 컴포넌트 간의 데이터를 전달한 방법이나 ngrx에 대한 내용을 주로 다룹니다.'
         }, {
-            picture: './static/img/img-user.png',
+            picture: './static/img/img-speaker-6.jpg',
             name: '손찬욱',
             company: 'NAVER',
             link: 'https://www.naver.com',
-            desc: '길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며...'
+            desc: 'Reactive Programming, Funtional Programming. ReactiveX와 같은 복잡한 용어는 이제 그만. RxJS를 살펴봄으로써 개발자로서 고민해야할 부분들에 대해 이야기합니다. 쉽게 써봅시다. RxJS!'
         }, {
             picture: './static/img/img-speaker-7.jpg',
             name: 'Bjorn Tegelund',
@@ -122,7 +122,7 @@ export default {
             icon: 'double-circle',
             startTime: '15:00',
             endTime: '15:40',
-            title: 'RxJS의 모든것',
+            title: '쉽게 써봅시다. RxJS!',
             location: ['NAVER', '손찬욱']
         }, {
             icon: 'double-circle',
