@@ -72,6 +72,7 @@ const IndexPage = () => (
             <GoogleMaps lat={location.position[0]} lng={location.position[1]}/>
             <Section className="index__sponsors" title={sponsors.title} subTitle={sponsors.subTitle}>
                 <Banners list={sponsors.list}/>
+                <p className="index__sponsor-contact">후원을 원하는 기업이나 단체는 <br/>uyeong21c@gmail.com으로 연락해주세요.</p>
             </Section>
             <Section className="index__footer" tag="footer">
                 <img src="../static/img/logo-feconf.png" alt="FEConf 2017 대표 이미지"/>
