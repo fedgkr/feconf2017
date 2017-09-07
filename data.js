@@ -54,7 +54,7 @@ export default {
             picture: './static/img/img-speaker-5.png',
             name: '고재도',
             company: findCompany('Flitto'),
-            desc: '엥귤러로 대시보드를 만들면서 경험한 내용들을 공유합니다. 컴포넌트 간의 데이터를 전달한 방법이나 ngrx에 대한 내용을 주로 다룹니다.'
+            desc: 'Angular로 대시보드를 만들면서 경험한 내용들을 공유합니다. 컴포넌트 간의 데이터를 전달한 방법이나 ngrx에 대한 내용을 주로 다룹니다.'
         }, {
             picture: './static/img/img-speaker-6.jpg',
             name: '손찬욱',
@@ -121,7 +121,7 @@ export default {
             icon: 'double-circle',
             startTime: '14:10',
             endTime: '14:50',
-            title: '엥귤러 컴포넌트 대화법',
+            title: 'Angular 컴포넌트 대화법',
             speaker: {
                 name: '고재도',
                 company: findCompany('Flitto')
