@@ -117,11 +117,15 @@ $module: "index";
     &__participate-link {
         margin: 40px auto;
         text-align: center;
+        line-height: 1.25;
         &--top {
             margin: 60px auto 40px;
             .button {
                 color: $dark-blue;
             }
+        }
+        span:first-child {
+            font-size: 17.3px;
         }
     }
 

@@ -1,9 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Button = ({className, style, tag, href, type, children}) => (
+const Button = ({className, style, tag, href, type, disabled, children}) => (
     React.createElement(tag, {
-        className: `button${type ? ` button--${type}` : ''} ${className}`, href, style
+        className: `button${type ? ` button--${type}` : ''} ${className}`,
+        href,
+        style,
+        disabled
     }, (
         <div className="button__inner">
             {children}

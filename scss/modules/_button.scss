@@ -23,6 +23,9 @@ $module: "button";
         &:hover {
             background: darken($light-blue, 9%);
         }
+        &[disabled]:hover {
+            background: $light-blue;
+        }
     }
 
     &--light {
@@ -30,6 +33,9 @@ $module: "button";
         color: $light-blue;
         &:hover {
             background: darken($white, 9%);
+        }
+        &[disabled]:hover {
+            background: $white;
         }
     }
 }
