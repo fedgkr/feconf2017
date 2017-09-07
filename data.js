@@ -31,6 +31,11 @@ export default {
         title: '발표자',
         subTitle: 'SPEAKERS',
         list: [{
+            picture: './static/img/img-mc.jpeg',
+            name: '김훈민',
+            company: findCompany('NAVER'),
+            desc: '발표자인 듯 공간을 차지하고 있지만, 사실은 사회자입니다. 행사 준비할 때 한 게 없다고 사회 보랍니다. FEConf 10회 때는 저도 발표하고 싶습니다. 그때까지 콘퍼런스 할 수 있게, 전국의 프론트엔드 개발자 님들 도와주십쇼. 굽신굽신.'
+        }, {
             picture: './static/img/img-speaker-1.jpeg',
             name: 'Robin Rheem',
             company: findCompany('LezhinEntertainment'),
