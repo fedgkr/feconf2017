@@ -1,5 +1,5 @@
 const companies = [{
-    name: 'LezhinEntertainment',
+    name: 'Lezhin Entertainment',
     link: 'https://www.lezhin.com',
     image: '../static/img/logo-lezhin.png'
 }, {

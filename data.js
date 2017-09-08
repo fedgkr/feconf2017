@@ -38,7 +38,7 @@ export default {
         }, {
             picture: './static/img/img-speaker-1.jpeg',
             name: 'Robin Rheem',
-            company: findCompany('LezhinEntertainment'),
+            company: findCompany('Lezhin Entertainment'),
             desc: 'var whatToSay = "Always engineer the shi* out of everything.";'
         }, {
             picture: './static/img/img-speaker-2.png',
@@ -88,7 +88,7 @@ export default {
             title: 'Performance Optimization',
             speaker: {
                 name: 'Robin Rheem',
-                company: findCompany('LezhinEntertainment')
+                company: findCompany('Lezhin Entertainment')
             }
         }, {
             icon: 'double-circle',
@@ -178,7 +178,7 @@ export default {
         title: '스폰서',
         subTitle: 'SPONSORS',
         list: [
-            findCompany('LezhinEntertainment'),
+            findCompany('Lezhin Entertainment'),
             findCompany('NAVER')
         ]
     }
