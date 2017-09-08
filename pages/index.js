@@ -25,8 +25,18 @@ const IndexPage = () => (
     <div className="wrap index">
         <Head>
             <title>Welcome to FEConf 2017 - FEConf Korea</title>
-            <meta name="description" content="FEConf 2017 컨퍼런스 행사의 일정 및 스피커 그리고 각 세션을 소개합니다. 올해 처음 열리는 FEConf! 많은 관심과 성원 부탁드립니다."/>
+            <meta name="description" content="2017 FEConf Korea 행사의 일정 및 스피커 그리고 각 세션을 소개합니다. 올해 처음 열리는 FEConf! 많은 관심과 성원 부탁드립니다."/>
             <meta name="keywords" content="프론트엔드,프론트엔드개발자,프론트엔드개발자그룹,개발자,프로그래머,마크업,디자이너,컨퍼런스,이벤트,서울,마루180,FrontEnd,Developer,Programmer,Markup,Designer,Conference,Event,Seoul,MARU180"/>
+            <meta property="og:url" content="https://2017.feconf.kr/"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="2017 FEConf Korea"/>
+            <meta property="og:description" content="FEConf 2017 컨퍼런스 행사의 일정 및 스피커 그리고 각 세션을 소개합니다. 올해 처음 열리는 FEConf! 많은 관심과 성원 부탁드립니다."/>
+            <meta property="og:image" content="https://2017.feconf.kr/static/img/img-og-feconf.png"/>
+            <meta name="twitter:card" content="summary_large_image"/>
+            <meta name="twitter:title" content="2017 FEConf Korea"/>
+            <meta name="twitter:description" content="FEConf 2017 컨퍼런스 행사의 일정 및 스피커 그리고 각 세션을 소개합니다. 올해 처음 열리는 FEConf! 많은 관심과 성원 부탁드립니다."/>
+            <meta name="twitter:creator" content="@coderifleman"/>
+            <meta name="twitter:image" content="https://2017.feconf.kr/static/img/img-og-feconf.png"/>
         </Head>
         <div className="index__inner">
             <Section className="index__hero" tag="header">
