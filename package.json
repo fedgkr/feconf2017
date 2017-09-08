@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "dev": "next",
-    "build": "next build && next export && touch out/.nojekyll && cname out && git add out && git commit -m \"Update pages - `date +\"%Y-%m-%d %T\"`\""
+    "build": "next build && next export && touch out/.nojekyll && cname out && git add out && git commit -m \"Update pages - `date +\"%Y-%m-%d %T\"`\"",
+    "deploy": "git subtree push --prefix out origin gh-pages"
   },
   "repository": {
     "type": "git",
