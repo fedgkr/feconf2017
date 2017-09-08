@@ -44,7 +44,7 @@ export default {
             picture: './static/img/img-speaker-2.png',
             name: '김양원',
             company: findCompany('TTCC'),
-            desc: 'Javascript 는 언젠가 개발자들에게 피로감을 주는 달리 말하면 배워야할께 너무 많은 환경이 되어가고 있고 이런 흐름이 어디서부터 발현되었고 어떠한 변화들과 그 변화들이 추구하는 빅비쳐는 무엇인지를 이야기하고 이를 통해 자바스크립트의 피로감을 조금 덜어보려고 합니다.'
+            desc: 'Javascript 는 언젠가 개발자들에게 피로감을 주는 달리 말하면 배워야할께 너무 많은 환경이 되어가고 있고 이런 흐름이 어디서부터 발현되었고 어떠한 변화들과 그 변화들이 추구하는 빅피쳐는 무엇인지를 이야기하고 이를 통해 자바스크립트의 피로감을 조금 덜어보려고 합니다.'
         }, {
             picture: './static/img/img-speaker-3.jpeg',
             name: '서정명',
