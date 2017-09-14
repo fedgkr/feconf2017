@@ -111,12 +111,12 @@ export default {
         }, {
             icon: 'circle',
             startTime: '12:20',
-            endTime: '13:20',
+            endTime: '14:00',
             title: '점심시간'
         }, {
             icon: 'double-circle',
-            startTime: '13:20',
-            endTime: '14:00',
+            startTime: '14:00',
+            endTime: '14:40',
             title: 'Redux-thunk에서 Redux-saga로 이사하기',
             speaker: {
                 name: '김동우',
@@ -124,17 +124,22 @@ export default {
             }
         }, {
             icon: 'double-circle',
-            startTime: '14:10',
-            endTime: '14:50',
+            startTime: '14:50',
+            endTime: '15:30',
             title: '쉽게 써봅시다. RxJS!',
             speaker: {
                 name: '손찬욱',
                 company: findCompany('NAVER')
             }
         }, {
+            icon: 'circle',
+            startTime: '15:30',
+            endTime: '15:50',
+            title: '쉬는시간'
+        }, {
             icon: 'double-circle',
-            startTime: '15:00',
-            endTime: '15:40',
+            startTime: '15:50',
+            endTime: '16:30',
             title: 'Angular 컴포넌트 대화법',
             speaker: {
                 name: '고재도',
@@ -142,8 +147,8 @@ export default {
             }
         }, {
             icon: 'double-circle',
-            startTime: '15:50',
-            endTime: '16:30',
+            startTime: '16:40',
+            endTime: '17:20',
             title: '최근 1년 동안 새로운 팀이 새로운 기술로 새로운 프론트엔드를 만들면서 얻은 교훈들',
             speaker: {
                 name: 'Bjorn Tegelund',
@@ -151,7 +156,7 @@ export default {
             }
         }, {
             icon: 'circle',
-            startTime: '16:30',
+            startTime: '17:20',
             endTime: '',
             title: '네트워킹',
             location: '마루180 1층 홀'
