@@ -48,7 +48,7 @@ const IndexPage = () => (
                 </div>
                 <div className="index__participate-link index__participate-link--top">
                     <div className="index__participate-link">
-                        <Button tag="a" href="https://docs.google.com/forms/d/e/1FAIpQLSdsDZphtjSU9cKylgBX-D7JWr15jh5ZlX0FgsXZhfnZ8ruq3Q/viewform?usp=sf_link" type="light">행사 참여하기</Button>
+                        <Button tag="a" href="https://h2k.co/j" type="light">행사 참여하기</Button>
                     </div>
                 </div>
             </Section>
@@ -86,7 +86,7 @@ const IndexPage = () => (
             <Section className="index__footer" tag="footer">
                 <img src="../static/img/logo-feconf.png" alt="FEConf 2017 대표 이미지"/>
                 <div className="index__participate-link">
-                    <Button tag="a" href="https://docs.google.com/forms/d/e/1FAIpQLSdsDZphtjSU9cKylgBX-D7JWr15jh5ZlX0FgsXZhfnZ8ruq3Q/viewform?usp=sf_link" type="light">행사 참여하기</Button>
+                    <Button tag="a" href="https://h2k.co/j" type="light">행사 참여하기</Button>
                 </div>
             </Section>
         </div>
