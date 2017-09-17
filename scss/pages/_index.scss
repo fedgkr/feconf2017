@@ -128,7 +128,7 @@ $module: "index";
         text-align: center;
         line-height: 1.25;
         &--top {
-            margin: 60px auto 40px;
+            margin: 60px auto 0;
             .button {
                 color: $dark-blue;
             }

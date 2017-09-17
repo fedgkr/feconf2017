@@ -47,9 +47,7 @@ const IndexPage = () => (
                     <img src="../static/img/img-astronaut.png" aria-hidden="true"/>
                 </div>
                 <div className="index__participate-link index__participate-link--top">
-                    <div className="index__participate-link">
-                        <Button tag="a" href="https://h2k.co/j" type="light">행사 참여하기</Button>
-                    </div>
+                    <Button tag="a" href="https://h2k.co/j" type="light">행사 참여하기</Button>
                 </div>
             </Section>
             <Placard
