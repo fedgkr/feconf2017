@@ -47,10 +47,9 @@ const IndexPage = () => (
                     <img src="../static/img/img-astronaut.png" aria-hidden="true"/>
                 </div>
                 <div className="index__participate-link index__participate-link--top">
-                    <Button type="light" disabled>
-                        <span>2017.09.18(월)</span><br/>
-                        <span>참여하기 오픈</span>
-                    </Button>
+                    <div className="index__participate-link">
+                        <Button tag="a" href="https://goo.gl/forms/ONhANXcqlBVVICZd2" type="light">행사 참여하기</Button>
+                    </div>
                 </div>
             </Section>
             <Placard
@@ -86,9 +85,9 @@ const IndexPage = () => (
             </Section>
             <Section className="index__footer" tag="footer">
                 <img src="../static/img/logo-feconf.png" alt="FEConf 2017 대표 이미지"/>
-                {/*<div className="index__participate-link">
-                    <Button tag="a" href="#" type="light">행사 참여하기</Button>
-                </div>*/}
+                <div className="index__participate-link">
+                    <Button tag="a" href="https://goo.gl/forms/ONhANXcqlBVVICZd2" type="light">행사 참여하기</Button>
+                </div>
             </Section>
         </div>
     </div>
