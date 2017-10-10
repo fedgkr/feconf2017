@@ -13,8 +13,8 @@ const companies = [{
     name: '공개SW개발자Lab',
     link: 'https://kosslab.kr/'
 }, {
-    name: 'Flitto',
-    link: 'https://www.flitto.com/'
+    name: 'Google Developer Expert',
+    link: 'https://developers.google.com/experts/people/jeado-ko/'
 }, {
     name: 'NAVER',
     link: 'http://www.navercorp.com',
