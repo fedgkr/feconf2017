@@ -111,12 +111,12 @@ export default {
         }, {
             icon: 'circle',
             startTime: '12:20',
-            endTime: '14:00',
+            endTime: '13:50',
             title: '점심시간'
         }, {
             icon: 'double-circle',
-            startTime: '14:00',
-            endTime: '14:40',
+            startTime: '13:50',
+            endTime: '14:30',
             title: 'Redux-thunk에서 Redux-saga로 이사하기',
             speaker: {
                 name: '김동우',
@@ -124,8 +124,8 @@ export default {
             }
         }, {
             icon: 'double-circle',
-            startTime: '14:50',
-            endTime: '15:30',
+            startTime: '14:40',
+            endTime: '15:20',
             title: '쉽게 써봅시다. RxJS!',
             speaker: {
                 name: '손찬욱',
@@ -133,13 +133,13 @@ export default {
             }
         }, {
             icon: 'circle',
-            startTime: '15:30',
-            endTime: '15:50',
+            startTime: '15:20',
+            endTime: '15:40',
             title: '쉬는시간'
         }, {
             icon: 'double-circle',
-            startTime: '15:50',
-            endTime: '16:30',
+            startTime: '15:40',
+            endTime: '16:20',
             title: 'Angular 컴포넌트 대화법',
             speaker: {
                 name: '고재도',
@@ -147,8 +147,8 @@ export default {
             }
         }, {
             icon: 'double-circle',
-            startTime: '16:40',
-            endTime: '17:20',
+            startTime: '16:30',
+            endTime: '17:10',
             title: '최근 1년 동안 새로운 팀이 새로운 기술로 새로운 프론트엔드를 만들면서 얻은 교훈들',
             speaker: {
                 name: 'Bjorn Tegelund',
@@ -157,6 +157,12 @@ export default {
         }, {
             icon: 'circle',
             startTime: '17:20',
+            endTime: '17:50',
+            title: '오픈 QNA',
+            location: '마루180 지하1층'
+        }, {
+            icon: 'circle',
+            startTime: '17:50',
             endTime: '',
             title: '네트워킹',
             location: '마루180 1층 홀'
@@ -184,7 +190,8 @@ export default {
         subTitle: 'SPONSORS',
         list: [
             findCompany('Lezhin Entertainment'),
-            findCompany('NAVER')
+            findCompany('NAVER'),
+            findCompany('NCsoft'),
         ]
     }
 };

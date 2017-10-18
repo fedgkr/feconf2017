@@ -7,7 +7,8 @@ const companies = [{
     link: 'https://triple.guide/'
 }, {
     name: 'NCsoft',
-    link: 'http://kr.ncsoft.com/korean/'
+    link: 'http://kr.ncsoft.com/korean/',
+    image: '../static/img/logo-ncsoft.png'
 }, {
     name: '공개SW개발자Lab',
     link: 'https://kosslab.kr/'
