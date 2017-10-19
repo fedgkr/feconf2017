@@ -19,9 +19,6 @@ const companies = [{
     name: 'NAVER',
     link: 'http://www.navercorp.com',
     image: '../static/img/logo-naver.png'
-}, {
-    name: 'Tumblbug',
-    link: 'https://tumblbug.com/'
 }];
 
 function findCompany(name) {

@@ -66,10 +66,10 @@ export default {
             company: findCompany('Flitto'),
             desc: 'Angular로 대시보드를 만들면서 경험한 내용들을 공유합니다. 컴포넌트 간의 데이터를 전달한 방법이나 ngrx에 대한 내용을 주로 다룹니다.'
         }, {
-            picture: './static/img/img-speaker-7.jpg',
-            name: 'Bjorn Tegelund',
-            company: findCompany('Tumblbug'),
-            desc: '코드는 가치가 있는 것을 만들기 위한 도구일 뿐입니다. 무엇을 왜 하는지 의식하는 것이 제일 중요합니다.'
+            picture: './static/img/img-speaker-7.png',
+            name: '조성우',
+            company: findCompany('NAVER'),
+            desc: 'TypeScript에 관심 있지만, 적용을 고민하는 분께 도움이 되면 좋겠습니다. 꼭 TypeScript가 아니어도, 21세기에 사는 Front-End 개발자들이 당연히 누려야 할 개발 환경은 어떤 것이어야 하는지 함께 고민해 보는 시간이 되길 바랍니다.'
         }]
     },
     schedule: {
@@ -149,10 +149,10 @@ export default {
             icon: 'double-circle',
             startTime: '16:30',
             endTime: '17:10',
-            title: '최근 1년 동안 새로운 팀이 새로운 기술로 새로운 프론트엔드를 만들면서 얻은 교훈들',
+            title: 'TypeScript가 그대를 이롭게 할지니!',
             speaker: {
-                name: 'Bjorn Tegelund',
-                company: findCompany('Tumblbug')
+                name: '조성우',
+                company: findCompany('NAVER')
             }
         }, {
             icon: 'circle',
