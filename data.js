@@ -158,7 +158,7 @@ export default {
             icon: 'circle',
             startTime: '17:20',
             endTime: '17:50',
-            title: '오픈 QNA',
+            title: '오픈 Q&A',
             location: '마루180 지하1층'
         }, {
             icon: 'circle',
